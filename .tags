@@ -1,0 +1,935 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+hello	E:\Code\concurrence\01.cpp	/^void hello() \/\/¢Ú$/;"	function	line:3	signature:()
+main	E:\Code\concurrence\01.cpp	/^int main()$/;"	function	line:7	signature:()
+mut	E:\Code\concurrence\02.cpp	/^std::mutex mut;$/;"	variable	line:8
+q	E:\Code\concurrence\02.cpp	/^std::queue<int> q;$/;"	variable	line:9
+cond	E:\Code\concurrence\02.cpp	/^std::condition_variable cond;$/;"	variable	line:10
+data_preparation_thread	E:\Code\concurrence\02.cpp	/^void data_preparation_thread()$/;"	function	line:12	signature:()
+data_processing_thread	E:\Code\concurrence\02.cpp	/^void data_processing_thread()$/;"	function	line:26	signature:()
+main	E:\Code\concurrence\02.cpp	/^int main()$/;"	function	line:44	signature:()
+thread_func	E:\Code\concurrence\03.cpp	/^void thread_func(int &sum)$/;"	function	line:3	signature:(int &sum)
+main	E:\Code\concurrence\03.cpp	/^int main(void)$/;"	function	line:9	signature:(void)
+hello	E:\Code\concurrence\listing_1.1.cpp	/^void hello()$/;"	function	line:4	signature:()
+main	E:\Code\concurrence\listing_1.1.cpp	/^int main()$/;"	function	line:9	signature:()
+test_concurrent_push_and_pop_on_empty_queue	E:\Code\concurrence\listing_10.1.cpp	/^void test_concurrent_push_and_pop_on_empty_queue()$/;"	function	line:1	signature:()
+do_something	E:\Code\concurrence\listing_2.1.cpp	/^void do_something(int& i)$/;"	function	line:3	signature:(int& i)
+func	E:\Code\concurrence\listing_2.1.cpp	/^struct func$/;"	struct	line:8	file:
+i	E:\Code\concurrence\listing_2.1.cpp	/^    int& i;$/;"	member	line:10	struct:func	file:
+func	E:\Code\concurrence\listing_2.1.cpp	/^    func(int& i_):i(i_){}$/;"	function	line:12	struct:func	signature:(int& i_)
+operator ()	E:\Code\concurrence\listing_2.1.cpp	/^    void operator()()$/;"	function	line:14	struct:func	signature:()
+oops	E:\Code\concurrence\listing_2.1.cpp	/^void oops()$/;"	function	line:24	signature:()
+main	E:\Code\concurrence\listing_2.1.cpp	/^int main()$/;"	function	line:32	signature:()
+do_something	E:\Code\concurrence\listing_2.2.cpp	/^void do_something(int& i)$/;"	function	line:3	signature:(int& i)
+func	E:\Code\concurrence\listing_2.2.cpp	/^struct func$/;"	struct	line:8	file:
+i	E:\Code\concurrence\listing_2.2.cpp	/^    int& i;$/;"	member	line:10	struct:func	file:
+func	E:\Code\concurrence\listing_2.2.cpp	/^    func(int& i_):i(i_){}$/;"	function	line:12	struct:func	signature:(int& i_)
+operator ()	E:\Code\concurrence\listing_2.2.cpp	/^    void operator()()$/;"	function	line:14	struct:func	signature:()
+do_something_in_current_thread	E:\Code\concurrence\listing_2.2.cpp	/^void do_something_in_current_thread()$/;"	function	line:23	signature:()
+f	E:\Code\concurrence\listing_2.2.cpp	/^void f()$/;"	function	line:26	signature:()
+main	E:\Code\concurrence\listing_2.2.cpp	/^int main()$/;"	function	line:43	signature:()
+thread_guard	E:\Code\concurrence\listing_2.3.cpp	/^class thread_guard$/;"	class	line:3	file:
+t	E:\Code\concurrence\listing_2.3.cpp	/^    std::thread& t;$/;"	member	line:5	class:thread_guard	file:
+thread_guard	E:\Code\concurrence\listing_2.3.cpp	/^    explicit thread_guard(std::thread& t_):$/;"	function	line:7	class:thread_guard	signature:(std::thread& t_)
+~thread_guard	E:\Code\concurrence\listing_2.3.cpp	/^    ~thread_guard()$/;"	function	line:10	class:thread_guard	signature:()
+do_something	E:\Code\concurrence\listing_2.3.cpp	/^void do_something(int& i)$/;"	function	line:21	signature:(int& i)
+func	E:\Code\concurrence\listing_2.3.cpp	/^struct func$/;"	struct	line:26	file:
+i	E:\Code\concurrence\listing_2.3.cpp	/^    int& i;$/;"	member	line:28	struct:func	file:
+func	E:\Code\concurrence\listing_2.3.cpp	/^    func(int& i_):i(i_){}$/;"	function	line:30	struct:func	signature:(int& i_)
+operator ()	E:\Code\concurrence\listing_2.3.cpp	/^    void operator()()$/;"	function	line:32	struct:func	signature:()
+do_something_in_current_thread	E:\Code\concurrence\listing_2.3.cpp	/^void do_something_in_current_thread()$/;"	function	line:41	signature:()
+f	E:\Code\concurrence\listing_2.3.cpp	/^void f()$/;"	function	line:45	signature:()
+main	E:\Code\concurrence\listing_2.3.cpp	/^int main()$/;"	function	line:55	signature:()
+open_document_and_display_gui	E:\Code\concurrence\listing_2.4.cpp	/^void open_document_and_display_gui(std::string const& filename)$/;"	function	line:4	signature:(std::string const& filename)
+done_editing	E:\Code\concurrence\listing_2.4.cpp	/^bool done_editing()$/;"	function	line:7	signature:()
+command_type	E:\Code\concurrence\listing_2.4.cpp	/^enum command_type{$/;"	enum	line:12	file:
+open_new_document	E:\Code\concurrence\listing_2.4.cpp	/^    open_new_document$/;"	enumerator	line:13	enum:command_type	file:
+user_command	E:\Code\concurrence\listing_2.4.cpp	/^struct user_command$/;"	struct	line:17	file:
+type	E:\Code\concurrence\listing_2.4.cpp	/^    command_type type;$/;"	member	line:19	struct:user_command	file:
+user_command	E:\Code\concurrence\listing_2.4.cpp	/^    user_command():$/;"	function	line:21	struct:user_command	signature:()
+get_user_input	E:\Code\concurrence\listing_2.4.cpp	/^user_command get_user_input()$/;"	function	line:26	signature:()
+get_filename_from_user	E:\Code\concurrence\listing_2.4.cpp	/^std::string get_filename_from_user()$/;"	function	line:31	signature:()
+process_user_input	E:\Code\concurrence\listing_2.4.cpp	/^void process_user_input(user_command const& cmd)$/;"	function	line:36	signature:(user_command const& cmd)
+edit_document	E:\Code\concurrence\listing_2.4.cpp	/^void edit_document(std::string const& filename)$/;"	function	line:39	signature:(std::string const& filename)
+main	E:\Code\concurrence\listing_2.4.cpp	/^int main()$/;"	function	line:58	signature:()
+some_function	E:\Code\concurrence\listing_2.5.cpp	/^void some_function()$/;"	function	line:3	signature:()
+some_other_function	E:\Code\concurrence\listing_2.5.cpp	/^void some_other_function(int)$/;"	function	line:6	signature:(int)
+f	E:\Code\concurrence\listing_2.5.cpp	/^std::thread f()$/;"	function	line:9	signature:()
+g	E:\Code\concurrence\listing_2.5.cpp	/^std::thread g()$/;"	function	line:14	signature:()
+main	E:\Code\concurrence\listing_2.5.cpp	/^int main()$/;"	function	line:21	signature:()
+scoped_thread	E:\Code\concurrence\listing_2.6.cpp	/^class scoped_thread$/;"	class	line:4	file:
+t	E:\Code\concurrence\listing_2.6.cpp	/^    std::thread t;$/;"	member	line:6	class:scoped_thread	file:
+scoped_thread	E:\Code\concurrence\listing_2.6.cpp	/^    explicit scoped_thread(std::thread t_):$/;"	function	line:8	class:scoped_thread	signature:(std::thread t_)
+~scoped_thread	E:\Code\concurrence\listing_2.6.cpp	/^    ~scoped_thread()$/;"	function	line:14	class:scoped_thread	signature:()
+do_something	E:\Code\concurrence\listing_2.6.cpp	/^void do_something(int& i)$/;"	function	line:22	signature:(int& i)
+func	E:\Code\concurrence\listing_2.6.cpp	/^struct func$/;"	struct	line:27	file:
+i	E:\Code\concurrence\listing_2.6.cpp	/^    int& i;$/;"	member	line:29	struct:func	file:
+func	E:\Code\concurrence\listing_2.6.cpp	/^    func(int& i_):i(i_){}$/;"	function	line:31	struct:func	signature:(int& i_)
+operator ()	E:\Code\concurrence\listing_2.6.cpp	/^    void operator()()$/;"	function	line:33	struct:func	signature:()
+do_something_in_current_thread	E:\Code\concurrence\listing_2.6.cpp	/^void do_something_in_current_thread()$/;"	function	line:42	signature:()
+f	E:\Code\concurrence\listing_2.6.cpp	/^void f()$/;"	function	line:45	signature:()
+main	E:\Code\concurrence\listing_2.6.cpp	/^int main()$/;"	function	line:53	signature:()
+do_work	E:\Code\concurrence\listing_2.7.cpp	/^void do_work(unsigned id)$/;"	function	line:6	signature:(unsigned id)
+f	E:\Code\concurrence\listing_2.7.cpp	/^void f()$/;"	function	line:9	signature:()
+main	E:\Code\concurrence\listing_2.7.cpp	/^int main()$/;"	function	line:20	signature:()
+accumulate_block	E:\Code\concurrence\listing_2.8.cpp	/^struct accumulate_block$/;"	struct	line:9	file:
+operator ()	E:\Code\concurrence\listing_2.8.cpp	/^    void operator()(Iterator first,Iterator last,T& result)$/;"	function	line:11	struct:accumulate_block	signature:(Iterator first,Iterator last,T& result)
+parallel_accumulate	E:\Code\concurrence\listing_2.8.cpp	/^T parallel_accumulate(Iterator first,Iterator last,T init)$/;"	function	line:18	signature:(Iterator first,Iterator last,T init)
+main	E:\Code\concurrence\listing_2.8.cpp	/^int main()$/;"	function	line:58	signature:()
+some_list	E:\Code\concurrence\listing_3.1.cpp	/^std::list<int> some_list;$/;"	variable	line:5
+some_mutex	E:\Code\concurrence\listing_3.1.cpp	/^std::mutex some_mutex;$/;"	variable	line:6
+add_to_list	E:\Code\concurrence\listing_3.1.cpp	/^void add_to_list(int new_value)$/;"	function	line:8	signature:(int new_value)
+list_contains	E:\Code\concurrence\listing_3.1.cpp	/^bool list_contains(int value_to_find)$/;"	function	line:13	signature:(int value_to_find)
+main	E:\Code\concurrence\listing_3.1.cpp	/^int main()$/;"	function	line:22	signature:()
+Y	E:\Code\concurrence\listing_3.10.cpp	/^class Y$/;"	class	line:2	file:
+some_detail	E:\Code\concurrence\listing_3.10.cpp	/^    int some_detail;$/;"	member	line:5	class:Y	file:
+m	E:\Code\concurrence\listing_3.10.cpp	/^    mutable std::mutex m;$/;"	member	line:6	class:Y	file:
+get_detail	E:\Code\concurrence\listing_3.10.cpp	/^    int get_detail() const$/;"	function	line:8	class:Y	file:	signature:() const
+Y	E:\Code\concurrence\listing_3.10.cpp	/^    Y(int sd):some_detail(sd){}$/;"	function	line:14	class:Y	signature:(int sd)
+operator ==	E:\Code\concurrence\listing_3.10.cpp	/^    friend bool operator==(Y const& lhs, Y const& rhs)$/;"	function	line:16	class:Y	signature:(Y const& lhs, Y const& rhs)
+main	E:\Code\concurrence\listing_3.10.cpp	/^int main()$/;"	function	line:26	signature:()
+some_resource	E:\Code\concurrence\listing_3.11.cpp	/^struct some_resource$/;"	struct	line:4	file:
+do_something	E:\Code\concurrence\listing_3.11.cpp	/^    void do_something()$/;"	function	line:6	struct:some_resource	signature:()
+resource_ptr	E:\Code\concurrence\listing_3.11.cpp	/^std::shared_ptr<some_resource> resource_ptr;$/;"	variable	line:12
+resource_mutex	E:\Code\concurrence\listing_3.11.cpp	/^std::mutex resource_mutex;$/;"	variable	line:13
+foo	E:\Code\concurrence\listing_3.11.cpp	/^void foo()$/;"	function	line:14	signature:()
+main	E:\Code\concurrence\listing_3.11.cpp	/^int main()$/;"	function	line:25	signature:()
+connection_info	E:\Code\concurrence\listing_3.12.cpp	/^struct connection_info$/;"	struct	line:3	file:
+data_packet	E:\Code\concurrence\listing_3.12.cpp	/^struct data_packet$/;"	struct	line:6	file:
+connection_handle	E:\Code\concurrence\listing_3.12.cpp	/^struct connection_handle$/;"	struct	line:9	file:
+send_data	E:\Code\concurrence\listing_3.12.cpp	/^    void send_data(data_packet const&)$/;"	function	line:11	struct:connection_handle	signature:(data_packet const&)
+receive_data	E:\Code\concurrence\listing_3.12.cpp	/^    data_packet receive_data()$/;"	function	line:13	struct:connection_handle	signature:()
+remote_connection_manager	E:\Code\concurrence\listing_3.12.cpp	/^struct remote_connection_manager$/;"	struct	line:19	file:
+open	E:\Code\concurrence\listing_3.12.cpp	/^    connection_handle open(connection_info const&)$/;"	function	line:21	struct:remote_connection_manager	signature:(connection_info const&)
+connection_manager	E:\Code\concurrence\listing_3.12.cpp	/^} connection_manager;$/;"	variable	line:25	typeref:struct:remote_connection_manager
+X	E:\Code\concurrence\listing_3.12.cpp	/^class X$/;"	class	line:28	file:
+connection_details	E:\Code\concurrence\listing_3.12.cpp	/^    connection_info connection_details;$/;"	member	line:31	class:X	file:
+connection	E:\Code\concurrence\listing_3.12.cpp	/^    connection_handle connection;$/;"	member	line:32	class:X	file:
+connection_init_flag	E:\Code\concurrence\listing_3.12.cpp	/^    std::once_flag connection_init_flag;$/;"	member	line:33	class:X	file:
+open_connection	E:\Code\concurrence\listing_3.12.cpp	/^    void open_connection()$/;"	function	line:35	class:X	file:	signature:()
+X	E:\Code\concurrence\listing_3.12.cpp	/^    X(connection_info const& connection_details_):$/;"	function	line:40	class:X	signature:(connection_info const& connection_details_)
+send_data	E:\Code\concurrence\listing_3.12.cpp	/^    void send_data(data_packet const& data)$/;"	function	line:43	class:X	signature:(data_packet const& data)
+receive_data	E:\Code\concurrence\listing_3.12.cpp	/^    data_packet receive_data()$/;"	function	line:48	class:X	signature:()
+main	E:\Code\concurrence\listing_3.12.cpp	/^int main()$/;"	function	line:55	signature:()
+dns_entry	E:\Code\concurrence\listing_3.13.cpp	/^class dns_entry$/;"	class	line:6	file:
+dns_cache	E:\Code\concurrence\listing_3.13.cpp	/^class dns_cache$/;"	class	line:9	file:
+entries	E:\Code\concurrence\listing_3.13.cpp	/^    std::map<std::string,dns_entry> entries;$/;"	member	line:11	class:dns_cache	file:
+entry_mutex	E:\Code\concurrence\listing_3.13.cpp	/^    boost::shared_mutex entry_mutex;$/;"	member	line:12	class:dns_cache	file:
+find_entry	E:\Code\concurrence\listing_3.13.cpp	/^    dns_entry find_entry(std::string const& domain)$/;"	function	line:14	class:dns_cache	signature:(std::string const& domain)
+update_or_add_entry	E:\Code\concurrence\listing_3.13.cpp	/^    void update_or_add_entry(std::string const& domain,$/;"	function	line:21	class:dns_cache	signature:(std::string const& domain, dns_entry const& dns_details)
+main	E:\Code\concurrence\listing_3.13.cpp	/^int main()$/;"	function	line:29	signature:()
+some_data	E:\Code\concurrence\listing_3.2.cpp	/^class some_data$/;"	class	line:3	file:
+a	E:\Code\concurrence\listing_3.2.cpp	/^    int a;$/;"	member	line:5	class:some_data	file:
+b	E:\Code\concurrence\listing_3.2.cpp	/^    std::string b;$/;"	member	line:6	class:some_data	file:
+do_something	E:\Code\concurrence\listing_3.2.cpp	/^    void do_something()$/;"	function	line:8	class:some_data	signature:()
+data_wrapper	E:\Code\concurrence\listing_3.2.cpp	/^class data_wrapper$/;"	class	line:12	file:
+data	E:\Code\concurrence\listing_3.2.cpp	/^    some_data data;$/;"	member	line:15	class:data_wrapper	file:
+m	E:\Code\concurrence\listing_3.2.cpp	/^    std::mutex m;$/;"	member	line:16	class:data_wrapper	file:
+process_data	E:\Code\concurrence\listing_3.2.cpp	/^    void process_data(Function func)$/;"	function	line:19	class:data_wrapper	signature:(Function func)
+unprotected	E:\Code\concurrence\listing_3.2.cpp	/^some_data* unprotected;$/;"	variable	line:26
+malicious_function	E:\Code\concurrence\listing_3.2.cpp	/^void malicious_function(some_data& protected_data)$/;"	function	line:28	signature:(some_data& protected_data)
+x	E:\Code\concurrence\listing_3.2.cpp	/^data_wrapper x;$/;"	variable	line:33
+foo	E:\Code\concurrence\listing_3.2.cpp	/^void foo()$/;"	function	line:35	signature:()
+main	E:\Code\concurrence\listing_3.2.cpp	/^int main()$/;"	function	line:41	signature:()
+stack	E:\Code\concurrence\listing_3.3.cpp	/^class stack$/;"	class	line:3	file:
+main	E:\Code\concurrence\listing_3.3.cpp	/^int main()$/;"	function	line:23	signature:()
+empty_stack	E:\Code\concurrence\listing_3.4.cpp	/^struct empty_stack: std::exception$/;"	struct	line:4	file:
+threadsafe_stack	E:\Code\concurrence\listing_3.4.cpp	/^class threadsafe_stack$/;"	class	line:10	file:
+main	E:\Code\concurrence\listing_3.4.cpp	/^int main()$/;"	function	line:23	signature:()
+empty_stack	E:\Code\concurrence\listing_3.5.cpp	/^struct empty_stack: std::exception$/;"	struct	line:6	file:
+what	E:\Code\concurrence\listing_3.5.cpp	/^    const char* what() const throw()$/;"	function	line:8	struct:empty_stack	signature:() const
+threadsafe_stack	E:\Code\concurrence\listing_3.5.cpp	/^class threadsafe_stack$/;"	class	line:16	file:
+data	E:\Code\concurrence\listing_3.5.cpp	/^    std::stack<T> data;$/;"	member	line:19	class:threadsafe_stack	file:
+m	E:\Code\concurrence\listing_3.5.cpp	/^    mutable std::mutex m;$/;"	member	line:20	class:threadsafe_stack	file:
+threadsafe_stack	E:\Code\concurrence\listing_3.5.cpp	/^    threadsafe_stack(){}$/;"	function	line:22	class:threadsafe_stack	signature:()
+threadsafe_stack	E:\Code\concurrence\listing_3.5.cpp	/^    threadsafe_stack(const threadsafe_stack& other)$/;"	function	line:23	class:threadsafe_stack	signature:(const threadsafe_stack& other)
+push	E:\Code\concurrence\listing_3.5.cpp	/^    void push(T new_value)$/;"	function	line:30	class:threadsafe_stack	signature:(T new_value)
+pop	E:\Code\concurrence\listing_3.5.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:35	class:threadsafe_stack	signature:()
+pop	E:\Code\concurrence\listing_3.5.cpp	/^    void pop(T& value)$/;"	function	line:43	class:threadsafe_stack	signature:(T& value)
+empty	E:\Code\concurrence\listing_3.5.cpp	/^    bool empty() const$/;"	function	line:50	class:threadsafe_stack	signature:() const
+main	E:\Code\concurrence\listing_3.5.cpp	/^int main()$/;"	function	line:57	signature:()
+some_big_object	E:\Code\concurrence\listing_3.6.cpp	/^class some_big_object$/;"	class	line:3	file:
+swap	E:\Code\concurrence\listing_3.6.cpp	/^void swap(some_big_object& lhs,some_big_object& rhs)$/;"	function	line:6	signature:(some_big_object& lhs,some_big_object& rhs)
+X	E:\Code\concurrence\listing_3.6.cpp	/^class X$/;"	class	line:9	file:
+some_detail	E:\Code\concurrence\listing_3.6.cpp	/^    some_big_object some_detail;$/;"	member	line:12	class:X	file:
+m	E:\Code\concurrence\listing_3.6.cpp	/^    mutable std::mutex m;$/;"	member	line:13	class:X	file:
+X	E:\Code\concurrence\listing_3.6.cpp	/^    X(some_big_object const& sd):some_detail(sd){}$/;"	function	line:15	class:X	signature:(some_big_object const& sd)
+swap	E:\Code\concurrence\listing_3.6.cpp	/^    friend void swap(X& lhs, X& rhs)$/;"	function	line:17	class:X	signature:(X& lhs, X& rhs)
+main	E:\Code\concurrence\listing_3.6.cpp	/^int main()$/;"	function	line:28	signature:()
+hierarchical_mutex	E:\Code\concurrence\listing_3.7.cpp	/^class hierarchical_mutex$/;"	class	line:3	file:
+hierarchical_mutex	E:\Code\concurrence\listing_3.7.cpp	/^    explicit hierarchical_mutex(unsigned level)$/;"	function	line:6	class:hierarchical_mutex	signature:(unsigned level)
+lock	E:\Code\concurrence\listing_3.7.cpp	/^    void lock()$/;"	function	line:9	class:hierarchical_mutex	signature:()
+unlock	E:\Code\concurrence\listing_3.7.cpp	/^    void unlock()$/;"	function	line:11	class:hierarchical_mutex	signature:()
+do_low_level_stuff	E:\Code\concurrence\listing_3.7.cpp	/^int do_low_level_stuff()$/;"	function	line:19	signature:()
+low_level_func	E:\Code\concurrence\listing_3.7.cpp	/^int low_level_func()$/;"	function	line:25	signature:()
+high_level_stuff	E:\Code\concurrence\listing_3.7.cpp	/^void high_level_stuff(int some_param)$/;"	function	line:31	signature:(int some_param)
+high_level_func	E:\Code\concurrence\listing_3.7.cpp	/^void high_level_func()$/;"	function	line:35	signature:()
+thread_a	E:\Code\concurrence\listing_3.7.cpp	/^void thread_a()$/;"	function	line:41	signature:()
+do_other_stuff	E:\Code\concurrence\listing_3.7.cpp	/^void do_other_stuff()$/;"	function	line:47	signature:()
+other_stuff	E:\Code\concurrence\listing_3.7.cpp	/^void other_stuff()$/;"	function	line:51	signature:()
+thread_b	E:\Code\concurrence\listing_3.7.cpp	/^void thread_b()$/;"	function	line:57	signature:()
+main	E:\Code\concurrence\listing_3.7.cpp	/^int main()$/;"	function	line:63	signature:()
+hierarchical_mutex	E:\Code\concurrence\listing_3.8.cpp	/^class hierarchical_mutex$/;"	class	line:4	file:
+internal_mutex	E:\Code\concurrence\listing_3.8.cpp	/^    std::mutex internal_mutex;$/;"	member	line:6	class:hierarchical_mutex	file:
+hierarchy_value	E:\Code\concurrence\listing_3.8.cpp	/^    unsigned long const hierarchy_value;$/;"	member	line:7	class:hierarchical_mutex	file:
+previous_hierarchy_value	E:\Code\concurrence\listing_3.8.cpp	/^    unsigned long previous_hierarchy_value;$/;"	member	line:8	class:hierarchical_mutex	file:
+this_thread_hierarchy_value	E:\Code\concurrence\listing_3.8.cpp	/^    static thread_local unsigned long this_thread_hierarchy_value;$/;"	member	line:9	class:hierarchical_mutex	file:
+check_for_hierarchy_violation	E:\Code\concurrence\listing_3.8.cpp	/^    void check_for_hierarchy_violation()$/;"	function	line:11	class:hierarchical_mutex	file:	signature:()
+update_hierarchy_value	E:\Code\concurrence\listing_3.8.cpp	/^    void update_hierarchy_value()$/;"	function	line:18	class:hierarchical_mutex	file:	signature:()
+hierarchical_mutex	E:\Code\concurrence\listing_3.8.cpp	/^    explicit hierarchical_mutex(unsigned long value):$/;"	function	line:24	class:hierarchical_mutex	signature:(unsigned long value)
+lock	E:\Code\concurrence\listing_3.8.cpp	/^    void lock()$/;"	function	line:28	class:hierarchical_mutex	signature:()
+unlock	E:\Code\concurrence\listing_3.8.cpp	/^    void unlock()$/;"	function	line:34	class:hierarchical_mutex	signature:()
+try_lock	E:\Code\concurrence\listing_3.8.cpp	/^    bool try_lock()$/;"	function	line:39	class:hierarchical_mutex	signature:()
+main	E:\Code\concurrence\listing_3.8.cpp	/^int main()$/;"	function	line:51	signature:()
+some_big_object	E:\Code\concurrence\listing_3.9.cpp	/^class some_big_object$/;"	class	line:3	file:
+swap	E:\Code\concurrence\listing_3.9.cpp	/^void swap(some_big_object& lhs,some_big_object& rhs)$/;"	function	line:6	signature:(some_big_object& lhs,some_big_object& rhs)
+X	E:\Code\concurrence\listing_3.9.cpp	/^class X$/;"	class	line:9	file:
+some_detail	E:\Code\concurrence\listing_3.9.cpp	/^    some_big_object some_detail;$/;"	member	line:12	class:X	file:
+m	E:\Code\concurrence\listing_3.9.cpp	/^    mutable std::mutex m;$/;"	member	line:13	class:X	file:
+X	E:\Code\concurrence\listing_3.9.cpp	/^    X(some_big_object const& sd):some_detail(sd){}$/;"	function	line:15	class:X	signature:(some_big_object const& sd)
+swap	E:\Code\concurrence\listing_3.9.cpp	/^    friend void swap(X& lhs, X& rhs)$/;"	function	line:17	class:X	signature:(X& lhs, X& rhs)
+main	E:\Code\concurrence\listing_3.9.cpp	/^int main()$/;"	function	line:28	signature:()
+more_data_to_prepare	E:\Code\concurrence\listing_4.1.cpp	/^bool more_data_to_prepare()$/;"	function	line:6	signature:()
+data_chunk	E:\Code\concurrence\listing_4.1.cpp	/^struct data_chunk$/;"	struct	line:11	file:
+prepare_data	E:\Code\concurrence\listing_4.1.cpp	/^data_chunk prepare_data()$/;"	function	line:14	signature:()
+process	E:\Code\concurrence\listing_4.1.cpp	/^void process(data_chunk&)$/;"	function	line:19	signature:(data_chunk&)
+is_last_chunk	E:\Code\concurrence\listing_4.1.cpp	/^bool is_last_chunk(data_chunk&)$/;"	function	line:22	signature:(data_chunk&)
+mut	E:\Code\concurrence\listing_4.1.cpp	/^std::mutex mut;$/;"	variable	line:27
+data_queue	E:\Code\concurrence\listing_4.1.cpp	/^std::queue<data_chunk> data_queue;$/;"	variable	line:28
+data_cond	E:\Code\concurrence\listing_4.1.cpp	/^std::condition_variable data_cond;$/;"	variable	line:29
+data_preparation_thread	E:\Code\concurrence\listing_4.1.cpp	/^void data_preparation_thread()$/;"	function	line:31	signature:()
+data_processing_thread	E:\Code\concurrence\listing_4.1.cpp	/^void data_processing_thread()$/;"	function	line:42	signature:()
+main	E:\Code\concurrence\listing_4.1.cpp	/^int main()$/;"	function	line:57	signature:()
+process_connections	E:\Code\concurrence\listing_4.10.cpp	/^void process_connections(connection_set& connections)$/;"	function	line:2	signature:(connection_set& connections)
+cv	E:\Code\concurrence\listing_4.11.cpp	/^std::condition_variable cv;$/;"	variable	line:4
+done	E:\Code\concurrence\listing_4.11.cpp	/^bool done;$/;"	variable	line:5
+m	E:\Code\concurrence\listing_4.11.cpp	/^std::mutex m;$/;"	variable	line:6
+wait_loop	E:\Code\concurrence\listing_4.11.cpp	/^bool wait_loop()$/;"	function	line:7	signature:()
+sequential_quick_sort	E:\Code\concurrence\listing_4.12.cpp	/^std::list<T> sequential_quick_sort(std::list<T> input)$/;"	function	line:2	signature:(std::list<T> input)
+parallel_quick_sort	E:\Code\concurrence\listing_4.13.cpp	/^std::list<T> parallel_quick_sort(std::list<T> input)$/;"	function	line:2	signature:(std::list<T> input)
+spawn_task	E:\Code\concurrence\listing_4.14.cpp	/^spawn_task(F&& f,A&& a)$/;"	function	line:3	signature:(F&& f,A&& a)
+card_inserted	E:\Code\concurrence\listing_4.15.cpp	/^struct card_inserted$/;"	struct	line:1	file:
+account	E:\Code\concurrence\listing_4.15.cpp	/^    std::string account;$/;"	member	line:3	struct:card_inserted	file:
+atm	E:\Code\concurrence\listing_4.15.cpp	/^class atm$/;"	class	line:5	file:
+incoming	E:\Code\concurrence\listing_4.15.cpp	/^    messaging::receiver incoming;$/;"	member	line:7	class:atm	file:
+bank	E:\Code\concurrence\listing_4.15.cpp	/^    messaging::sender bank;$/;"	member	line:8	class:atm	file:
+interface_hardware	E:\Code\concurrence\listing_4.15.cpp	/^    messaging::sender interface_hardware;$/;"	member	line:9	class:atm	file:
+state	E:\Code\concurrence\listing_4.15.cpp	/^    void (atm::*state)();$/;"	member	line:10	class:atm	file:
+account	E:\Code\concurrence\listing_4.15.cpp	/^    std::string account;$/;"	member	line:11	class:atm	file:
+pin	E:\Code\concurrence\listing_4.15.cpp	/^    std::string pin;$/;"	member	line:12	class:atm	file:
+waiting_for_card	E:\Code\concurrence\listing_4.15.cpp	/^    void waiting_for_card()$/;"	function	line:13	class:atm	file:	signature:()
+run	E:\Code\concurrence\listing_4.15.cpp	/^    void run()$/;"	function	line:29	class:atm	signature:()
+getting_pin	E:\Code\concurrence\listing_4.16.cpp	/^void atm::getting_pin()$/;"	function	line:1	class:atm	signature:()
+queue	E:\Code\concurrence\listing_4.2.cpp	/^class queue {$/;"	class	line:2	file:
+main	E:\Code\concurrence\listing_4.2.cpp	/^int main()$/;"	function	line:29	signature:()
+threadsafe_queue	E:\Code\concurrence\listing_4.3.cpp	/^class threadsafe_queue$/;"	class	line:3	file:
+main	E:\Code\concurrence\listing_4.3.cpp	/^int main()$/;"	function	line:21	signature:()
+threadsafe_queue	E:\Code\concurrence\listing_4.4.cpp	/^class threadsafe_queue$/;"	class	line:5	file:
+mut	E:\Code\concurrence\listing_4.4.cpp	/^    std::mutex mut;$/;"	member	line:8	class:threadsafe_queue	file:
+data_queue	E:\Code\concurrence\listing_4.4.cpp	/^    std::queue<T> data_queue;$/;"	member	line:9	class:threadsafe_queue	file:
+data_cond	E:\Code\concurrence\listing_4.4.cpp	/^    std::condition_variable data_cond;$/;"	member	line:10	class:threadsafe_queue	file:
+push	E:\Code\concurrence\listing_4.4.cpp	/^    void push(T new_value)$/;"	function	line:12	class:threadsafe_queue	signature:(T new_value)
+wait_and_pop	E:\Code\concurrence\listing_4.4.cpp	/^    void wait_and_pop(T& value)$/;"	function	line:19	class:threadsafe_queue	signature:(T& value)
+data_chunk	E:\Code\concurrence\listing_4.4.cpp	/^struct data_chunk$/;"	struct	line:29	file:
+data_queue	E:\Code\concurrence\listing_4.4.cpp	/^threadsafe_queue<data_chunk> data_queue;$/;"	variable	line:37
+data_preparation_thread	E:\Code\concurrence\listing_4.4.cpp	/^void data_preparation_thread()$/;"	function	line:39	signature:()
+data_processing_thread	E:\Code\concurrence\listing_4.4.cpp	/^void data_processing_thread()$/;"	function	line:48	signature:()
+threadsafe_queue	E:\Code\concurrence\listing_4.5.cpp	/^class threadsafe_queue$/;"	class	line:7	file:
+mut	E:\Code\concurrence\listing_4.5.cpp	/^    mutable std::mutex mut;$/;"	member	line:10	class:threadsafe_queue	file:
+data_queue	E:\Code\concurrence\listing_4.5.cpp	/^    std::queue<T> data_queue;$/;"	member	line:11	class:threadsafe_queue	file:
+data_cond	E:\Code\concurrence\listing_4.5.cpp	/^    std::condition_variable data_cond;$/;"	member	line:12	class:threadsafe_queue	file:
+threadsafe_queue	E:\Code\concurrence\listing_4.5.cpp	/^    threadsafe_queue()$/;"	function	line:14	class:threadsafe_queue	signature:()
+threadsafe_queue	E:\Code\concurrence\listing_4.5.cpp	/^    threadsafe_queue(threadsafe_queue const& other)$/;"	function	line:16	class:threadsafe_queue	signature:(threadsafe_queue const& other)
+push	E:\Code\concurrence\listing_4.5.cpp	/^    void push(T new_value)$/;"	function	line:22	class:threadsafe_queue	signature:(T new_value)
+wait_and_pop	E:\Code\concurrence\listing_4.5.cpp	/^    void wait_and_pop(T& value)$/;"	function	line:29	class:threadsafe_queue	signature:(T& value)
+wait_and_pop	E:\Code\concurrence\listing_4.5.cpp	/^    std::shared_ptr<T> wait_and_pop()$/;"	function	line:37	class:threadsafe_queue	signature:()
+try_pop	E:\Code\concurrence\listing_4.5.cpp	/^    bool try_pop(T& value)$/;"	function	line:46	class:threadsafe_queue	signature:(T& value)
+try_pop	E:\Code\concurrence\listing_4.5.cpp	/^    std::shared_ptr<T> try_pop()$/;"	function	line:55	class:threadsafe_queue	signature:()
+empty	E:\Code\concurrence\listing_4.5.cpp	/^    bool empty() const$/;"	function	line:65	class:threadsafe_queue	signature:() const
+main	E:\Code\concurrence\listing_4.5.cpp	/^int main()$/;"	function	line:72	signature:()
+find_the_answer_to_ltuae	E:\Code\concurrence\listing_4.6.cpp	/^int find_the_answer_to_ltuae()$/;"	function	line:3	signature:()
+do_other_stuff	E:\Code\concurrence\listing_4.6.cpp	/^void do_other_stuff()$/;"	function	line:8	signature:()
+main	E:\Code\concurrence\listing_4.6.cpp	/^int main()$/;"	function	line:11	signature:()
+X	E:\Code\concurrence\listing_4.7.cpp	/^struct X$/;"	struct	line:4	file:
+x	E:\Code\concurrence\listing_4.7.cpp	/^X x;$/;"	variable	line:11
+f1	E:\Code\concurrence\listing_4.7.cpp	/^auto f1=std::async(&X::foo,&x,42,"hello");$/;"	variable	line:12
+f2	E:\Code\concurrence\listing_4.7.cpp	/^auto f2=std::async(&X::bar,x,"goodbye");$/;"	variable	line:13
+Y	E:\Code\concurrence\listing_4.7.cpp	/^struct Y$/;"	struct	line:15	file:
+y	E:\Code\concurrence\listing_4.7.cpp	/^Y y;$/;"	variable	line:19
+f3	E:\Code\concurrence\listing_4.7.cpp	/^auto f3=std::async(Y(),3.141);$/;"	variable	line:20
+f4	E:\Code\concurrence\listing_4.7.cpp	/^auto f4=std::async(std::ref(y),2.718);$/;"	variable	line:21
+f6	E:\Code\concurrence\listing_4.7.cpp	/^auto f6=std::async(baz,std::ref(x));$/;"	variable	line:23
+move_only	E:\Code\concurrence\listing_4.7.cpp	/^class move_only$/;"	class	line:24	file:
+f5	E:\Code\concurrence\listing_4.7.cpp	/^auto f5=std::async(move_only());$/;"	variable	line:34
+packaged_task	E:\Code\concurrence\listing_4.8.cpp	/^class packaged_task<std::string(std::vector<char>*,int)>$/;"	class	line:2	file:
+m	E:\Code\concurrence\listing_4.9.cpp	/^std::mutex m;$/;"	variable	line:7
+tasks	E:\Code\concurrence\listing_4.9.cpp	/^std::deque<std::packaged_task<void()> > tasks;$/;"	variable	line:8
+gui_thread	E:\Code\concurrence\listing_4.9.cpp	/^void gui_thread()$/;"	function	line:13	signature:()
+post_task_for_gui_thread	E:\Code\concurrence\listing_4.9.cpp	/^std::future<void> post_task_for_gui_thread(Func f)$/;"	function	line:33	signature:(Func f)
+spinlock_mutex	E:\Code\concurrence\listing_5.1.cpp	/^class spinlock_mutex$/;"	class	line:1	file:
+flag	E:\Code\concurrence\listing_5.1.cpp	/^    std::atomic_flag flag;$/;"	member	line:3	class:spinlock_mutex	file:
+spinlock_mutex	E:\Code\concurrence\listing_5.1.cpp	/^    spinlock_mutex():$/;"	function	line:5	class:spinlock_mutex	signature:()
+lock	E:\Code\concurrence\listing_5.1.cpp	/^    void lock()$/;"	function	line:8	class:spinlock_mutex	signature:()
+unlock	E:\Code\concurrence\listing_5.1.cpp	/^    void unlock()$/;"	function	line:12	class:spinlock_mutex	signature:()
+X	E:\Code\concurrence\listing_5.10.cpp	/^struct X$/;"	struct	line:5	file:
+i	E:\Code\concurrence\listing_5.10.cpp	/^    int i;$/;"	member	line:7	struct:X	file:
+s	E:\Code\concurrence\listing_5.10.cpp	/^    std::string s;$/;"	member	line:8	struct:X	file:
+p	E:\Code\concurrence\listing_5.10.cpp	/^std::atomic<X*> p;$/;"	variable	line:11
+a	E:\Code\concurrence\listing_5.10.cpp	/^std::atomic<int> a;$/;"	variable	line:12
+create_x	E:\Code\concurrence\listing_5.10.cpp	/^void create_x()$/;"	function	line:14	signature:()
+use_x	E:\Code\concurrence\listing_5.10.cpp	/^void use_x()$/;"	function	line:23	signature:()
+main	E:\Code\concurrence\listing_5.10.cpp	/^int main()$/;"	function	line:32	signature:()
+queue_data	E:\Code\concurrence\listing_5.11.cpp	/^std::vector<int> queue_data;$/;"	variable	line:4
+count	E:\Code\concurrence\listing_5.11.cpp	/^std::atomic<int> count;$/;"	variable	line:5
+populate_queue	E:\Code\concurrence\listing_5.11.cpp	/^void populate_queue()$/;"	function	line:7	signature:()
+consume_queue_items	E:\Code\concurrence\listing_5.11.cpp	/^void consume_queue_items()$/;"	function	line:19	signature:()
+main	E:\Code\concurrence\listing_5.11.cpp	/^int main()$/;"	function	line:33	signature:()
+x	E:\Code\concurrence\listing_5.12.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+y	E:\Code\concurrence\listing_5.12.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+z	E:\Code\concurrence\listing_5.12.cpp	/^std::atomic<int> z;$/;"	variable	line:6
+write_x_then_y	E:\Code\concurrence\listing_5.12.cpp	/^void write_x_then_y()$/;"	function	line:8	signature:()
+read_y_then_x	E:\Code\concurrence\listing_5.12.cpp	/^void read_y_then_x()$/;"	function	line:15	signature:()
+main	E:\Code\concurrence\listing_5.12.cpp	/^int main()$/;"	function	line:23	signature:()
+x	E:\Code\concurrence\listing_5.13.cpp	/^bool x=false;$/;"	variable	line:5
+y	E:\Code\concurrence\listing_5.13.cpp	/^std::atomic<bool> y;$/;"	variable	line:6
+z	E:\Code\concurrence\listing_5.13.cpp	/^std::atomic<int> z;$/;"	variable	line:7
+write_x_then_y	E:\Code\concurrence\listing_5.13.cpp	/^void write_x_then_y()$/;"	function	line:9	signature:()
+read_y_then_x	E:\Code\concurrence\listing_5.13.cpp	/^void read_y_then_x()$/;"	function	line:16	signature:()
+main	E:\Code\concurrence\listing_5.13.cpp	/^int main()$/;"	function	line:24	signature:()
+data	E:\Code\concurrence\listing_5.2.cpp	/^std::vector<int> data;$/;"	variable	line:7
+reader_thread	E:\Code\concurrence\listing_5.2.cpp	/^void reader_thread()$/;"	function	line:10	signature:()
+writer_thread	E:\Code\concurrence\listing_5.2.cpp	/^void writer_thread()$/;"	function	line:18	signature:()
+foo	E:\Code\concurrence\listing_5.3.cpp	/^void foo(int a,int b)$/;"	function	line:3	signature:(int a,int b)
+get_num	E:\Code\concurrence\listing_5.3.cpp	/^int get_num()$/;"	function	line:8	signature:()
+main	E:\Code\concurrence\listing_5.3.cpp	/^int main()$/;"	function	line:14	signature:()
+x	E:\Code\concurrence\listing_5.4.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+y	E:\Code\concurrence\listing_5.4.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+z	E:\Code\concurrence\listing_5.4.cpp	/^std::atomic<int> z;$/;"	variable	line:6
+write_x	E:\Code\concurrence\listing_5.4.cpp	/^void write_x()$/;"	function	line:8	signature:()
+write_y	E:\Code\concurrence\listing_5.4.cpp	/^void write_y()$/;"	function	line:13	signature:()
+read_x_then_y	E:\Code\concurrence\listing_5.4.cpp	/^void read_x_then_y()$/;"	function	line:18	signature:()
+read_y_then_x	E:\Code\concurrence\listing_5.4.cpp	/^void read_y_then_x()$/;"	function	line:25	signature:()
+main	E:\Code\concurrence\listing_5.4.cpp	/^int main()$/;"	function	line:32	signature:()
+x	E:\Code\concurrence\listing_5.5.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+y	E:\Code\concurrence\listing_5.5.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+z	E:\Code\concurrence\listing_5.5.cpp	/^std::atomic<int> z;$/;"	variable	line:6
+write_x_then_y	E:\Code\concurrence\listing_5.5.cpp	/^void write_x_then_y()$/;"	function	line:8	signature:()
+read_y_then_x	E:\Code\concurrence\listing_5.5.cpp	/^void read_y_then_x()$/;"	function	line:14	signature:()
+main	E:\Code\concurrence\listing_5.5.cpp	/^int main()$/;"	function	line:21	signature:()
+loop_count	E:\Code\concurrence\listing_5.6.cpp	/^unsigned const loop_count=10;$/;"	variable	line:7
+read_values	E:\Code\concurrence\listing_5.6.cpp	/^struct read_values$/;"	struct	line:9	file:
+x	E:\Code\concurrence\listing_5.6.cpp	/^    int x,y,z;$/;"	member	line:11	struct:read_values	file:
+y	E:\Code\concurrence\listing_5.6.cpp	/^    int x,y,z;$/;"	member	line:11	struct:read_values	file:
+z	E:\Code\concurrence\listing_5.6.cpp	/^    int x,y,z;$/;"	member	line:11	struct:read_values	file:
+values1	E:\Code\concurrence\listing_5.6.cpp	/^read_values values1[loop_count];$/;"	variable	line:13
+values2	E:\Code\concurrence\listing_5.6.cpp	/^read_values values2[loop_count];$/;"	variable	line:14
+values3	E:\Code\concurrence\listing_5.6.cpp	/^read_values values3[loop_count];$/;"	variable	line:15
+values4	E:\Code\concurrence\listing_5.6.cpp	/^read_values values4[loop_count];$/;"	variable	line:16
+values5	E:\Code\concurrence\listing_5.6.cpp	/^read_values values5[loop_count];$/;"	variable	line:17
+increment	E:\Code\concurrence\listing_5.6.cpp	/^void increment(std::atomic<int>* var_to_inc,read_values* values)$/;"	function	line:18	signature:(std::atomic<int>* var_to_inc,read_values* values)
+read_vals	E:\Code\concurrence\listing_5.6.cpp	/^void read_vals(read_values* values)$/;"	function	line:32	signature:(read_values* values)
+print	E:\Code\concurrence\listing_5.6.cpp	/^void print(read_values* v)$/;"	function	line:45	signature:(read_values* v)
+main	E:\Code\concurrence\listing_5.6.cpp	/^int main()$/;"	function	line:56	signature:()
+x	E:\Code\concurrence\listing_5.7.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+y	E:\Code\concurrence\listing_5.7.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+z	E:\Code\concurrence\listing_5.7.cpp	/^std::atomic<int> z;$/;"	variable	line:6
+write_x	E:\Code\concurrence\listing_5.7.cpp	/^void write_x()$/;"	function	line:8	signature:()
+write_y	E:\Code\concurrence\listing_5.7.cpp	/^void write_y()$/;"	function	line:13	signature:()
+read_x_then_y	E:\Code\concurrence\listing_5.7.cpp	/^void read_x_then_y()$/;"	function	line:18	signature:()
+read_y_then_x	E:\Code\concurrence\listing_5.7.cpp	/^void read_y_then_x()$/;"	function	line:25	signature:()
+main	E:\Code\concurrence\listing_5.7.cpp	/^int main()$/;"	function	line:32	signature:()
+x	E:\Code\concurrence\listing_5.8.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+y	E:\Code\concurrence\listing_5.8.cpp	/^std::atomic<bool> x,y;$/;"	variable	line:5
+z	E:\Code\concurrence\listing_5.8.cpp	/^std::atomic<int> z;$/;"	variable	line:6
+write_x_then_y	E:\Code\concurrence\listing_5.8.cpp	/^void write_x_then_y()$/;"	function	line:8	signature:()
+read_y_then_x	E:\Code\concurrence\listing_5.8.cpp	/^void read_y_then_x()$/;"	function	line:14	signature:()
+main	E:\Code\concurrence\listing_5.8.cpp	/^int main()$/;"	function	line:21	signature:()
+data	E:\Code\concurrence\listing_5.9.cpp	/^std::atomic<int> data[5];$/;"	variable	line:5
+thread_1	E:\Code\concurrence\listing_5.9.cpp	/^void thread_1()$/;"	function	line:8	signature:()
+thread_2	E:\Code\concurrence\listing_5.9.cpp	/^void thread_2()$/;"	function	line:18	signature:()
+thread_3	E:\Code\concurrence\listing_5.9.cpp	/^void thread_3()$/;"	function	line:24	signature:()
+main	E:\Code\concurrence\listing_5.9.cpp	/^int main()$/;"	function	line:34	signature:()
+empty_stack	E:\Code\concurrence\listing_6.1.cpp	/^struct empty_stack: std::exception$/;"	struct	line:6	file:
+what	E:\Code\concurrence\listing_6.1.cpp	/^    const char* what() const throw()$/;"	function	line:8	struct:empty_stack	signature:() const
+threadsafe_stack	E:\Code\concurrence\listing_6.1.cpp	/^class threadsafe_stack$/;"	class	line:15	file:
+data	E:\Code\concurrence\listing_6.1.cpp	/^    std::stack<T> data;$/;"	member	line:18	class:threadsafe_stack	file:
+m	E:\Code\concurrence\listing_6.1.cpp	/^    mutable std::mutex m;$/;"	member	line:19	class:threadsafe_stack	file:
+threadsafe_stack	E:\Code\concurrence\listing_6.1.cpp	/^    threadsafe_stack(){}$/;"	function	line:21	class:threadsafe_stack	signature:()
+threadsafe_stack	E:\Code\concurrence\listing_6.1.cpp	/^    threadsafe_stack(const threadsafe_stack& other)$/;"	function	line:22	class:threadsafe_stack	signature:(const threadsafe_stack& other)
+push	E:\Code\concurrence\listing_6.1.cpp	/^    void push(T new_value)$/;"	function	line:29	class:threadsafe_stack	signature:(T new_value)
+pop	E:\Code\concurrence\listing_6.1.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:34	class:threadsafe_stack	signature:()
+pop	E:\Code\concurrence\listing_6.1.cpp	/^    void pop(T& value)$/;"	function	line:43	class:threadsafe_stack	signature:(T& value)
+empty	E:\Code\concurrence\listing_6.1.cpp	/^    bool empty() const$/;"	function	line:50	class:threadsafe_stack	signature:() const
+threadsafe_queue	E:\Code\concurrence\listing_6.10.cpp	/^class threadsafe_queue$/;"	class	line:2	file:
+try_pop_head	E:\Code\concurrence\listing_6.10.cpp	/^    std::unique_ptr<node> try_pop_head()$/;"	function	line:5	class:threadsafe_queue	file:	signature:()
+try_pop_head	E:\Code\concurrence\listing_6.10.cpp	/^    std::unique_ptr<node> try_pop_head(T& value)$/;"	function	line:15	class:threadsafe_queue	file:	signature:(T& value)
+try_pop	E:\Code\concurrence\listing_6.10.cpp	/^    std::shared_ptr<T> try_pop()$/;"	function	line:27	class:threadsafe_queue	signature:()
+try_pop	E:\Code\concurrence\listing_6.10.cpp	/^    bool try_pop(T& value)$/;"	function	line:33	class:threadsafe_queue	signature:(T& value)
+empty	E:\Code\concurrence\listing_6.10.cpp	/^    void empty()$/;"	function	line:39	class:threadsafe_queue	signature:()
+threadsafe_lookup_table	E:\Code\concurrence\listing_6.11.cpp	/^class threadsafe_lookup_table$/;"	class	line:10	file:
+bucket_type	E:\Code\concurrence\listing_6.11.cpp	/^    class bucket_type$/;"	class	line:13	class:threadsafe_lookup_table	file:
+bucket_value	E:\Code\concurrence\listing_6.11.cpp	/^        typedef std::pair<Key,Value> bucket_value;$/;"	typedef	line:16	class:threadsafe_lookup_table::bucket_type	file:
+bucket_data	E:\Code\concurrence\listing_6.11.cpp	/^        typedef std::list<bucket_value> bucket_data;$/;"	typedef	line:17	class:threadsafe_lookup_table::bucket_type	file:
+bucket_iterator	E:\Code\concurrence\listing_6.11.cpp	/^        typedef typename bucket_data::iterator bucket_iterator;$/;"	typedef	line:18	class:threadsafe_lookup_table::bucket_type	file:
+data	E:\Code\concurrence\listing_6.11.cpp	/^        bucket_data data;$/;"	member	line:20	class:threadsafe_lookup_table::bucket_type	file:
+mutex	E:\Code\concurrence\listing_6.11.cpp	/^        mutable boost::shared_mutex mutex;$/;"	member	line:21	class:threadsafe_lookup_table::bucket_type	file:
+find_entry_for	E:\Code\concurrence\listing_6.11.cpp	/^        bucket_iterator find_entry_for(Key const& key) const$/;"	function	line:23	class:threadsafe_lookup_table::bucket_type	file:	signature:(Key const& key) const
+value_for	E:\Code\concurrence\listing_6.11.cpp	/^        Value value_for(Key const& key,Value const& default_value) const$/;"	function	line:30	class:threadsafe_lookup_table::bucket_type	signature:(Key const& key,Value const& default_value) const
+add_or_update_mapping	E:\Code\concurrence\listing_6.11.cpp	/^        void add_or_update_mapping(Key const& key,Value const& value)$/;"	function	line:38	class:threadsafe_lookup_table::bucket_type	signature:(Key const& key,Value const& value)
+remove_mapping	E:\Code\concurrence\listing_6.11.cpp	/^        void remove_mapping(Key const& key)$/;"	function	line:52	class:threadsafe_lookup_table::bucket_type	signature:(Key const& key)
+buckets	E:\Code\concurrence\listing_6.11.cpp	/^    std::vector<std::unique_ptr<bucket_type> > buckets;$/;"	member	line:63	class:threadsafe_lookup_table	file:
+hasher	E:\Code\concurrence\listing_6.11.cpp	/^    Hash hasher;$/;"	member	line:64	class:threadsafe_lookup_table	file:
+get_bucket	E:\Code\concurrence\listing_6.11.cpp	/^    bucket_type& get_bucket(Key const& key) const$/;"	function	line:66	class:threadsafe_lookup_table	file:	signature:(Key const& key) const
+key_type	E:\Code\concurrence\listing_6.11.cpp	/^    typedef Key key_type;$/;"	typedef	line:73	class:threadsafe_lookup_table	file:
+mapped_type	E:\Code\concurrence\listing_6.11.cpp	/^    typedef Value mapped_type;$/;"	typedef	line:74	class:threadsafe_lookup_table	file:
+hash_type	E:\Code\concurrence\listing_6.11.cpp	/^    typedef Hash hash_type;$/;"	typedef	line:75	class:threadsafe_lookup_table	file:
+threadsafe_lookup_table	E:\Code\concurrence\listing_6.11.cpp	/^    threadsafe_lookup_table($/;"	function	line:77	class:threadsafe_lookup_table	signature:( unsigned num_buckets=19, Hash const& hasher_=Hash())
+other	E:\Code\concurrence\listing_6.11.cpp	/^    threadsafe_lookup_table(threadsafe_lookup_table const& other)=delete;$/;"	member	line:87	class:threadsafe_lookup_table	file:
+other	E:\Code\concurrence\listing_6.11.cpp	/^        threadsafe_lookup_table const& other)=delete;$/;"	member	line:89	class:threadsafe_lookup_table	file:
+value_for	E:\Code\concurrence\listing_6.11.cpp	/^    Value value_for(Key const& key,$/;"	function	line:91	class:threadsafe_lookup_table	signature:(Key const& key, Value const& default_value=Value()) const
+add_or_update_mapping	E:\Code\concurrence\listing_6.11.cpp	/^    void add_or_update_mapping(Key const& key,Value const& value)$/;"	function	line:97	class:threadsafe_lookup_table	signature:(Key const& key,Value const& value)
+remove_mapping	E:\Code\concurrence\listing_6.11.cpp	/^    void remove_mapping(Key const& key)$/;"	function	line:102	class:threadsafe_lookup_table	signature:(Key const& key)
+get_map	E:\Code\concurrence\listing_6.12.cpp	/^std::map<Key,Value> threadsafe_lookup_table::get_map() const$/;"	function	line:1	class:threadsafe_lookup_table	signature:() const
+threadsafe_list	E:\Code\concurrence\listing_6.13.cpp	/^class threadsafe_list$/;"	class	line:5	file:
+node	E:\Code\concurrence\listing_6.13.cpp	/^    struct node$/;"	struct	line:7	class:threadsafe_list	file:
+m	E:\Code\concurrence\listing_6.13.cpp	/^        std::mutex m;$/;"	member	line:9	struct:threadsafe_list::node	file:
+data	E:\Code\concurrence\listing_6.13.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:10	struct:threadsafe_list::node	file:
+next	E:\Code\concurrence\listing_6.13.cpp	/^        std::unique_ptr<node> next;$/;"	member	line:11	struct:threadsafe_list::node	file:
+node	E:\Code\concurrence\listing_6.13.cpp	/^        node():$/;"	function	line:13	struct:threadsafe_list::node	signature:()
+node	E:\Code\concurrence\listing_6.13.cpp	/^        node(T const& value):$/;"	function	line:17	struct:threadsafe_list::node	signature:(T const& value)
+head	E:\Code\concurrence\listing_6.13.cpp	/^    node head;$/;"	member	line:22	class:threadsafe_list	file:
+threadsafe_list	E:\Code\concurrence\listing_6.13.cpp	/^    threadsafe_list()$/;"	function	line:25	class:threadsafe_list	signature:()
+~threadsafe_list	E:\Code\concurrence\listing_6.13.cpp	/^    ~threadsafe_list()$/;"	function	line:28	class:threadsafe_list	signature:()
+other	E:\Code\concurrence\listing_6.13.cpp	/^    threadsafe_list(threadsafe_list const& other)=delete;$/;"	member	line:33	class:threadsafe_list	file:
+other	E:\Code\concurrence\listing_6.13.cpp	/^    threadsafe_list& operator=(threadsafe_list const& other)=delete;$/;"	member	line:34	class:threadsafe_list	file:
+push_front	E:\Code\concurrence\listing_6.13.cpp	/^    void push_front(T const& value)$/;"	function	line:36	class:threadsafe_list	signature:(T const& value)
+for_each	E:\Code\concurrence\listing_6.13.cpp	/^    void for_each(Function f)$/;"	function	line:45	class:threadsafe_list	signature:(Function f)
+find_first_if	E:\Code\concurrence\listing_6.13.cpp	/^    std::shared_ptr<T> find_first_if(Predicate p)$/;"	function	line:60	class:threadsafe_list	signature:(Predicate p)
+remove_if	E:\Code\concurrence\listing_6.13.cpp	/^    void remove_if(Predicate p)$/;"	function	line:79	class:threadsafe_list	signature:(Predicate p)
+threadsafe_queue	E:\Code\concurrence\listing_6.2.cpp	/^class threadsafe_queue$/;"	class	line:7	file:
+mut	E:\Code\concurrence\listing_6.2.cpp	/^    mutable std::mutex mut;$/;"	member	line:10	class:threadsafe_queue	file:
+data_queue	E:\Code\concurrence\listing_6.2.cpp	/^    std::queue<T> data_queue;$/;"	member	line:11	class:threadsafe_queue	file:
+data_cond	E:\Code\concurrence\listing_6.2.cpp	/^    std::condition_variable data_cond;$/;"	member	line:12	class:threadsafe_queue	file:
+threadsafe_queue	E:\Code\concurrence\listing_6.2.cpp	/^    threadsafe_queue()$/;"	function	line:14	class:threadsafe_queue	signature:()
+push	E:\Code\concurrence\listing_6.2.cpp	/^    void push(T new_value)$/;"	function	line:17	class:threadsafe_queue	signature:(T new_value)
+wait_and_pop	E:\Code\concurrence\listing_6.2.cpp	/^    void wait_and_pop(T& value)$/;"	function	line:24	class:threadsafe_queue	signature:(T& value)
+wait_and_pop	E:\Code\concurrence\listing_6.2.cpp	/^    std::shared_ptr<T> wait_and_pop()$/;"	function	line:32	class:threadsafe_queue	signature:()
+try_pop	E:\Code\concurrence\listing_6.2.cpp	/^    bool try_pop(T& value)$/;"	function	line:42	class:threadsafe_queue	signature:(T& value)
+try_pop	E:\Code\concurrence\listing_6.2.cpp	/^    std::shared_ptr<T> try_pop()$/;"	function	line:51	class:threadsafe_queue	signature:()
+empty	E:\Code\concurrence\listing_6.2.cpp	/^    bool empty() const$/;"	function	line:62	class:threadsafe_queue	signature:() const
+main	E:\Code\concurrence\listing_6.2.cpp	/^int main()$/;"	function	line:69	signature:()
+threadsafe_queue	E:\Code\concurrence\listing_6.3.cpp	/^class threadsafe_queue$/;"	class	line:7	file:
+mut	E:\Code\concurrence\listing_6.3.cpp	/^    mutable std::mutex mut;$/;"	member	line:10	class:threadsafe_queue	file:
+data_queue	E:\Code\concurrence\listing_6.3.cpp	/^    std::queue<std::shared_ptr<T> > data_queue;$/;"	member	line:11	class:threadsafe_queue	file:
+data_cond	E:\Code\concurrence\listing_6.3.cpp	/^    std::condition_variable data_cond;$/;"	member	line:12	class:threadsafe_queue	file:
+threadsafe_queue	E:\Code\concurrence\listing_6.3.cpp	/^    threadsafe_queue()$/;"	function	line:14	class:threadsafe_queue	signature:()
+wait_and_pop	E:\Code\concurrence\listing_6.3.cpp	/^    void wait_and_pop(T& value)$/;"	function	line:17	class:threadsafe_queue	signature:(T& value)
+try_pop	E:\Code\concurrence\listing_6.3.cpp	/^    bool try_pop(T& value)$/;"	function	line:25	class:threadsafe_queue	signature:(T& value)
+wait_and_pop	E:\Code\concurrence\listing_6.3.cpp	/^    std::shared_ptr<T> wait_and_pop()$/;"	function	line:34	class:threadsafe_queue	signature:()
+try_pop	E:\Code\concurrence\listing_6.3.cpp	/^    std::shared_ptr<T> try_pop()$/;"	function	line:43	class:threadsafe_queue	signature:()
+empty	E:\Code\concurrence\listing_6.3.cpp	/^    bool empty() const$/;"	function	line:53	class:threadsafe_queue	signature:() const
+push	E:\Code\concurrence\listing_6.3.cpp	/^    void push(T new_value)$/;"	function	line:59	class:threadsafe_queue	signature:(T new_value)
+queue	E:\Code\concurrence\listing_6.4.cpp	/^class queue$/;"	class	line:4	file:
+node	E:\Code\concurrence\listing_6.4.cpp	/^    struct node$/;"	struct	line:7	class:queue	file:
+data	E:\Code\concurrence\listing_6.4.cpp	/^        T data;$/;"	member	line:9	struct:queue::node	file:
+next	E:\Code\concurrence\listing_6.4.cpp	/^        std::unique_ptr<node> next;$/;"	member	line:10	struct:queue::node	file:
+node	E:\Code\concurrence\listing_6.4.cpp	/^        node(T data_):$/;"	function	line:12	struct:queue::node	signature:(T data_)
+head	E:\Code\concurrence\listing_6.4.cpp	/^    std::unique_ptr<node> head;$/;"	member	line:17	class:queue	file:
+tail	E:\Code\concurrence\listing_6.4.cpp	/^    node* tail;$/;"	member	line:18	class:queue	file:
+queue	E:\Code\concurrence\listing_6.4.cpp	/^    queue():$/;"	function	line:21	class:queue	signature:()
+other	E:\Code\concurrence\listing_6.4.cpp	/^    queue(const queue& other)=delete;$/;"	member	line:25	class:queue	file:
+other	E:\Code\concurrence\listing_6.4.cpp	/^    queue& operator=(const queue& other)=delete;$/;"	member	line:26	class:queue	file:
+try_pop	E:\Code\concurrence\listing_6.4.cpp	/^    std::shared_ptr<T> try_pop()$/;"	function	line:28	class:queue	signature:()
+push	E:\Code\concurrence\listing_6.4.cpp	/^    void push(T new_value)$/;"	function	line:41	class:queue	signature:(T new_value)
+queue	E:\Code\concurrence\listing_6.5.cpp	/^class queue$/;"	class	line:3	file:
+node	E:\Code\concurrence\listing_6.5.cpp	/^    struct node$/;"	struct	line:6	class:queue	file:
+data	E:\Code\concurrence\listing_6.5.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:8	struct:queue::node	file:
+next	E:\Code\concurrence\listing_6.5.cpp	/^        std::unique_ptr<node> next;$/;"	member	line:9	struct:queue::node	file:
+head	E:\Code\concurrence\listing_6.5.cpp	/^    std::unique_ptr<node> head;$/;"	member	line:12	class:queue	file:
+tail	E:\Code\concurrence\listing_6.5.cpp	/^    node* tail;$/;"	member	line:13	class:queue	file:
+queue	E:\Code\concurrence\listing_6.5.cpp	/^    queue():$/;"	function	line:16	class:queue	signature:()
+other	E:\Code\concurrence\listing_6.5.cpp	/^    queue(const queue& other)=delete;$/;"	member	line:20	class:queue	file:
+other	E:\Code\concurrence\listing_6.5.cpp	/^    queue& operator=(const queue& other)=delete;$/;"	member	line:21	class:queue	file:
+try_pop	E:\Code\concurrence\listing_6.5.cpp	/^    std::shared_ptr<T> try_pop()$/;"	function	line:23	class:queue	signature:()
+push	E:\Code\concurrence\listing_6.5.cpp	/^    void push(T new_value)$/;"	function	line:35	class:queue	signature:(T new_value)
+threadsafe_queue	E:\Code\concurrence\listing_6.6.cpp	/^class threadsafe_queue$/;"	class	line:5	file:
+node	E:\Code\concurrence\listing_6.6.cpp	/^    struct node$/;"	struct	line:8	class:threadsafe_queue	file:
+data	E:\Code\concurrence\listing_6.6.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:10	struct:threadsafe_queue::node	file:
+next	E:\Code\concurrence\listing_6.6.cpp	/^        std::unique_ptr<node> next;$/;"	member	line:11	struct:threadsafe_queue::node	file:
+head_mutex	E:\Code\concurrence\listing_6.6.cpp	/^    std::mutex head_mutex;$/;"	member	line:14	class:threadsafe_queue	file:
+head	E:\Code\concurrence\listing_6.6.cpp	/^    std::unique_ptr<node> head;$/;"	member	line:15	class:threadsafe_queue	file:
+tail_mutex	E:\Code\concurrence\listing_6.6.cpp	/^    std::mutex tail_mutex;$/;"	member	line:16	class:threadsafe_queue	file:
+tail	E:\Code\concurrence\listing_6.6.cpp	/^    node* tail;$/;"	member	line:17	class:threadsafe_queue	file:
+get_tail	E:\Code\concurrence\listing_6.6.cpp	/^    node* get_tail()$/;"	function	line:19	class:threadsafe_queue	file:	signature:()
+pop_head	E:\Code\concurrence\listing_6.6.cpp	/^    std::unique_ptr<node> pop_head()$/;"	function	line:25	class:threadsafe_queue	file:	signature:()
+threadsafe_queue	E:\Code\concurrence\listing_6.6.cpp	/^    threadsafe_queue():$/;"	function	line:39	class:threadsafe_queue	signature:()
+other	E:\Code\concurrence\listing_6.6.cpp	/^    threadsafe_queue(const threadsafe_queue& other)=delete;$/;"	member	line:43	class:threadsafe_queue	file:
+other	E:\Code\concurrence\listing_6.6.cpp	/^    threadsafe_queue& operator=(const threadsafe_queue& other)=delete;$/;"	member	line:44	class:threadsafe_queue	file:
+try_pop	E:\Code\concurrence\listing_6.6.cpp	/^    std::shared_ptr<T> try_pop()$/;"	function	line:46	class:threadsafe_queue	signature:()
+push	E:\Code\concurrence\listing_6.6.cpp	/^    void push(T new_value)$/;"	function	line:52	class:threadsafe_queue	signature:(T new_value)
+threadsafe_queue	E:\Code\concurrence\listing_6.7.cpp	/^class threadsafe_queue$/;"	class	line:2	file:
+node	E:\Code\concurrence\listing_6.7.cpp	/^    struct node$/;"	struct	line:5	class:threadsafe_queue	file:
+data	E:\Code\concurrence\listing_6.7.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:7	struct:threadsafe_queue::node	file:
+next	E:\Code\concurrence\listing_6.7.cpp	/^        std::unique_ptr<node> next;$/;"	member	line:8	struct:threadsafe_queue::node	file:
+head_mutex	E:\Code\concurrence\listing_6.7.cpp	/^    std::mutex head_mutex;$/;"	member	line:11	class:threadsafe_queue	file:
+head	E:\Code\concurrence\listing_6.7.cpp	/^    std::unique_ptr<node> head;$/;"	member	line:12	class:threadsafe_queue	file:
+tail_mutex	E:\Code\concurrence\listing_6.7.cpp	/^    std::mutex tail_mutex;$/;"	member	line:13	class:threadsafe_queue	file:
+tail	E:\Code\concurrence\listing_6.7.cpp	/^    node* tail;$/;"	member	line:14	class:threadsafe_queue	file:
+data_cond	E:\Code\concurrence\listing_6.7.cpp	/^    std::condition_variable data_cond;$/;"	member	line:15	class:threadsafe_queue	file:
+threadsafe_queue	E:\Code\concurrence\listing_6.7.cpp	/^    threadsafe_queue():$/;"	function	line:17	class:threadsafe_queue	signature:()
+other	E:\Code\concurrence\listing_6.7.cpp	/^    threadsafe_queue(const threadsafe_queue& other)=delete;$/;"	member	line:20	class:threadsafe_queue	file:
+other	E:\Code\concurrence\listing_6.7.cpp	/^    threadsafe_queue& operator=(const threadsafe_queue& other)=delete;$/;"	member	line:21	class:threadsafe_queue	file:
+push	E:\Code\concurrence\listing_6.8.cpp	/^void threadsafe_queue<T>::push(T new_value)$/;"	function	line:2	class:threadsafe_queue	signature:(T new_value)
+threadsafe_queue	E:\Code\concurrence\listing_6.9.cpp	/^class threadsafe_queue$/;"	class	line:2	file:
+get_tail	E:\Code\concurrence\listing_6.9.cpp	/^    node* get_tail()$/;"	function	line:5	class:threadsafe_queue	file:	signature:()
+pop_head	E:\Code\concurrence\listing_6.9.cpp	/^    std::unique_ptr<node> pop_head()$/;"	function	line:11	class:threadsafe_queue	file:	signature:()
+wait_for_data	E:\Code\concurrence\listing_6.9.cpp	/^    std::unique_lock<std::mutex> wait_for_data()$/;"	function	line:18	class:threadsafe_queue	file:	signature:()
+wait_pop_head	E:\Code\concurrence\listing_6.9.cpp	/^    std::unique_ptr<node> wait_pop_head()$/;"	function	line:25	class:threadsafe_queue	file:	signature:()
+wait_pop_head	E:\Code\concurrence\listing_6.9.cpp	/^    std::unique_ptr<node> wait_pop_head(T& value)$/;"	function	line:31	class:threadsafe_queue	file:	signature:(T& value)
+wait_and_pop	E:\Code\concurrence\listing_6.9.cpp	/^    std::shared_ptr<T> wait_and_pop()$/;"	function	line:39	class:threadsafe_queue	signature:()
+wait_and_pop	E:\Code\concurrence\listing_6.9.cpp	/^    void wait_and_pop(T& value)$/;"	function	line:45	class:threadsafe_queue	signature:(T& value)
+spinlock_mutex	E:\Code\concurrence\listing_7.1.cpp	/^class spinlock_mutex$/;"	class	line:3	file:
+flag	E:\Code\concurrence\listing_7.1.cpp	/^    std::atomic_flag flag;$/;"	member	line:5	class:spinlock_mutex	file:
+spinlock_mutex	E:\Code\concurrence\listing_7.1.cpp	/^    spinlock_mutex():$/;"	function	line:7	class:spinlock_mutex	signature:()
+lock	E:\Code\concurrence\listing_7.1.cpp	/^    void lock()$/;"	function	line:10	class:spinlock_mutex	signature:()
+unlock	E:\Code\concurrence\listing_7.1.cpp	/^    void unlock()$/;"	function	line:14	class:spinlock_mutex	signature:()
+lock_free_stack	E:\Code\concurrence\listing_7.10.cpp	/^class lock_free_stack$/;"	class	line:5	file:
+counted_node_ptr	E:\Code\concurrence\listing_7.10.cpp	/^    struct counted_node_ptr$/;"	struct	line:9	class:lock_free_stack	file:
+external_count	E:\Code\concurrence\listing_7.10.cpp	/^        int external_count;$/;"	member	line:11	struct:lock_free_stack::counted_node_ptr	file:
+ptr	E:\Code\concurrence\listing_7.10.cpp	/^        node* ptr;$/;"	member	line:12	struct:lock_free_stack::counted_node_ptr	file:
+node	E:\Code\concurrence\listing_7.10.cpp	/^    struct node$/;"	struct	line:14	class:lock_free_stack	file:
+data	E:\Code\concurrence\listing_7.10.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:16	struct:lock_free_stack::node	file:
+internal_count	E:\Code\concurrence\listing_7.10.cpp	/^        std::atomic<int> internal_count;$/;"	member	line:17	struct:lock_free_stack::node	file:
+next	E:\Code\concurrence\listing_7.10.cpp	/^        counted_node_ptr next;$/;"	member	line:18	struct:lock_free_stack::node	file:
+node	E:\Code\concurrence\listing_7.10.cpp	/^        node(T const& data_):$/;"	function	line:19	struct:lock_free_stack::node	signature:(T const& data_)
+head	E:\Code\concurrence\listing_7.10.cpp	/^    std::atomic<counted_node_ptr> head;$/;"	member	line:24	class:lock_free_stack	file:
+~lock_free_stack	E:\Code\concurrence\listing_7.10.cpp	/^    ~lock_free_stack()$/;"	function	line:26	class:lock_free_stack	signature:()
+push	E:\Code\concurrence\listing_7.10.cpp	/^    void push(T const& data)$/;"	function	line:30	class:lock_free_stack	signature:(T const& data)
+lock_free_stack	E:\Code\concurrence\listing_7.11.cpp	/^class lock_free_stack$/;"	class	line:2	file:
+increase_head_count	E:\Code\concurrence\listing_7.11.cpp	/^    void increase_head_count(counted_node_ptr& old_counter)$/;"	function	line:5	class:lock_free_stack	file:	signature:(counted_node_ptr& old_counter)
+pop	E:\Code\concurrence\listing_7.11.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:17	class:lock_free_stack	signature:()
+lock_free_stack	E:\Code\concurrence\listing_7.12.cpp	/^class lock_free_stack$/;"	class	line:5	file:
+counted_node_ptr	E:\Code\concurrence\listing_7.12.cpp	/^    struct counted_node_ptr$/;"	struct	line:9	class:lock_free_stack	file:
+external_count	E:\Code\concurrence\listing_7.12.cpp	/^        int external_count;$/;"	member	line:11	struct:lock_free_stack::counted_node_ptr	file:
+ptr	E:\Code\concurrence\listing_7.12.cpp	/^        node* ptr;$/;"	member	line:12	struct:lock_free_stack::counted_node_ptr	file:
+node	E:\Code\concurrence\listing_7.12.cpp	/^    struct node$/;"	struct	line:14	class:lock_free_stack	file:
+data	E:\Code\concurrence\listing_7.12.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:16	struct:lock_free_stack::node	file:
+internal_count	E:\Code\concurrence\listing_7.12.cpp	/^        std::atomic<int> internal_count;$/;"	member	line:17	struct:lock_free_stack::node	file:
+next	E:\Code\concurrence\listing_7.12.cpp	/^        counted_node_ptr next;$/;"	member	line:18	struct:lock_free_stack::node	file:
+node	E:\Code\concurrence\listing_7.12.cpp	/^        node(T const& data_):$/;"	function	line:19	struct:lock_free_stack::node	signature:(T const& data_)
+head	E:\Code\concurrence\listing_7.12.cpp	/^    std::atomic<counted_node_ptr> head;$/;"	member	line:24	class:lock_free_stack	file:
+increase_head_count	E:\Code\concurrence\listing_7.12.cpp	/^    void increase_head_count(counted_node_ptr& old_counter)$/;"	function	line:25	class:lock_free_stack	file:	signature:(counted_node_ptr& old_counter)
+~lock_free_stack	E:\Code\concurrence\listing_7.12.cpp	/^    ~lock_free_stack()$/;"	function	line:40	class:lock_free_stack	signature:()
+push	E:\Code\concurrence\listing_7.12.cpp	/^    void push(T const& data)$/;"	function	line:44	class:lock_free_stack	signature:(T const& data)
+pop	E:\Code\concurrence\listing_7.12.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:55	class:lock_free_stack	signature:()
+lock_free_queue	E:\Code\concurrence\listing_7.13.cpp	/^class lock_free_queue$/;"	class	line:5	file:
+node	E:\Code\concurrence\listing_7.13.cpp	/^    struct node$/;"	struct	line:8	class:lock_free_queue	file:
+data	E:\Code\concurrence\listing_7.13.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:10	struct:lock_free_queue::node	file:
+next	E:\Code\concurrence\listing_7.13.cpp	/^        node* next;$/;"	member	line:11	struct:lock_free_queue::node	file:
+node	E:\Code\concurrence\listing_7.13.cpp	/^        node():$/;"	function	line:12	struct:lock_free_queue::node	signature:()
+head	E:\Code\concurrence\listing_7.13.cpp	/^    std::atomic<node*> head;$/;"	member	line:16	class:lock_free_queue	file:
+tail	E:\Code\concurrence\listing_7.13.cpp	/^    std::atomic<node*> tail;$/;"	member	line:17	class:lock_free_queue	file:
+pop_head	E:\Code\concurrence\listing_7.13.cpp	/^    node* pop_head()$/;"	function	line:18	class:lock_free_queue	file:	signature:()
+lock_free_queue	E:\Code\concurrence\listing_7.13.cpp	/^    lock_free_queue():$/;"	function	line:29	class:lock_free_queue	signature:()
+other	E:\Code\concurrence\listing_7.13.cpp	/^    lock_free_queue(const lock_free_queue& other)=delete;$/;"	member	line:32	class:lock_free_queue	file:
+other	E:\Code\concurrence\listing_7.13.cpp	/^    lock_free_queue& operator=(const lock_free_queue& other)=delete;$/;"	member	line:33	class:lock_free_queue	file:
+~lock_free_queue	E:\Code\concurrence\listing_7.13.cpp	/^    ~lock_free_queue()$/;"	function	line:34	class:lock_free_queue	signature:()
+pop	E:\Code\concurrence\listing_7.13.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:42	class:lock_free_queue	signature:()
+push	E:\Code\concurrence\listing_7.13.cpp	/^    void push(T new_value)$/;"	function	line:53	class:lock_free_queue	signature:(T new_value)
+push	E:\Code\concurrence\listing_7.14.cpp	/^void push(T new_value)$/;"	function	line:1	signature:(T new_value)
+lock_free_queue	E:\Code\concurrence\listing_7.15.cpp	/^class lock_free_queue$/;"	class	line:4	file:
+counted_node_ptr	E:\Code\concurrence\listing_7.15.cpp	/^    struct counted_node_ptr$/;"	struct	line:8	class:lock_free_queue	file:
+external_count	E:\Code\concurrence\listing_7.15.cpp	/^        int external_count;$/;"	member	line:10	struct:lock_free_queue::counted_node_ptr	file:
+ptr	E:\Code\concurrence\listing_7.15.cpp	/^        node* ptr;$/;"	member	line:11	struct:lock_free_queue::counted_node_ptr	file:
+head	E:\Code\concurrence\listing_7.15.cpp	/^    std::atomic<counted_node_ptr> head;$/;"	member	line:13	class:lock_free_queue	file:
+tail	E:\Code\concurrence\listing_7.15.cpp	/^    std::atomic<counted_node_ptr> tail;$/;"	member	line:14	class:lock_free_queue	file:
+node_counter	E:\Code\concurrence\listing_7.15.cpp	/^    struct node_counter$/;"	struct	line:15	class:lock_free_queue	file:
+internal_count	E:\Code\concurrence\listing_7.15.cpp	/^        unsigned internal_count:30;$/;"	member	line:17	struct:lock_free_queue::node_counter	file:
+external_counters	E:\Code\concurrence\listing_7.15.cpp	/^        unsigned external_counters:2;$/;"	member	line:18	struct:lock_free_queue::node_counter	file:
+node	E:\Code\concurrence\listing_7.15.cpp	/^    struct node$/;"	struct	line:20	class:lock_free_queue	file:
+data	E:\Code\concurrence\listing_7.15.cpp	/^        std::atomic<T*> data;$/;"	member	line:22	struct:lock_free_queue::node	file:
+count	E:\Code\concurrence\listing_7.15.cpp	/^        std::atomic<node_counter> count;$/;"	member	line:23	struct:lock_free_queue::node	file:
+next	E:\Code\concurrence\listing_7.15.cpp	/^        counted_node_ptr next;$/;"	member	line:24	struct:lock_free_queue::node	file:
+node	E:\Code\concurrence\listing_7.15.cpp	/^        node()$/;"	function	line:25	struct:lock_free_queue::node	signature:()
+push	E:\Code\concurrence\listing_7.15.cpp	/^    void push(T new_value)$/;"	function	line:36	class:lock_free_queue	signature:(T new_value)
+lock_free_queue	E:\Code\concurrence\listing_7.16.cpp	/^class lock_free_queue$/;"	class	line:2	file:
+node	E:\Code\concurrence\listing_7.16.cpp	/^    struct node$/;"	struct	line:5	class:lock_free_queue	file:
+pop	E:\Code\concurrence\listing_7.16.cpp	/^    std::unique_ptr<T> pop()$/;"	function	line:10	class:lock_free_queue	signature:()
+lock_free_queue	E:\Code\concurrence\listing_7.17.cpp	/^class lock_free_queue$/;"	class	line:2	file:
+node	E:\Code\concurrence\listing_7.17.cpp	/^    struct node$/;"	struct	line:5	class:lock_free_queue	file:
+release_ref	E:\Code\concurrence\listing_7.17.cpp	/^        void release_ref()$/;"	function	line:7	struct:lock_free_queue::node	signature:()
+lock_free_queue	E:\Code\concurrence\listing_7.18.cpp	/^class lock_free_queue$/;"	class	line:2	file:
+increase_external_count	E:\Code\concurrence\listing_7.18.cpp	/^    static void increase_external_count($/;"	function	line:5	class:lock_free_queue	file:	signature:( std::atomic<counted_node_ptr>& counter, counted_node_ptr& old_counter)
+lock_free_queue	E:\Code\concurrence\listing_7.19.cpp	/^class lock_free_queue$/;"	class	line:2	file:
+free_external_counter	E:\Code\concurrence\listing_7.19.cpp	/^    static void free_external_counter(counted_node_ptr &old_node_ptr)$/;"	function	line:5	class:lock_free_queue	file:	signature:(counted_node_ptr &old_node_ptr)
+lock_free_stack	E:\Code\concurrence\listing_7.2.cpp	/^class lock_free_stack$/;"	class	line:4	file:
+node	E:\Code\concurrence\listing_7.2.cpp	/^    struct node$/;"	struct	line:7	class:lock_free_stack	file:
+data	E:\Code\concurrence\listing_7.2.cpp	/^        T data;$/;"	member	line:9	struct:lock_free_stack::node	file:
+next	E:\Code\concurrence\listing_7.2.cpp	/^        node* next;$/;"	member	line:10	struct:lock_free_stack::node	file:
+node	E:\Code\concurrence\listing_7.2.cpp	/^        node(T const& data_):$/;"	function	line:11	struct:lock_free_stack::node	signature:(T const& data_)
+head	E:\Code\concurrence\listing_7.2.cpp	/^    std::atomic<node*> head;$/;"	member	line:15	class:lock_free_stack	file:
+push	E:\Code\concurrence\listing_7.2.cpp	/^    void push(T const& data)$/;"	function	line:17	class:lock_free_stack	signature:(T const& data)
+lock_free_queue	E:\Code\concurrence\listing_7.20.cpp	/^class lock_free_queue$/;"	class	line:2	file:
+node	E:\Code\concurrence\listing_7.20.cpp	/^    struct node$/;"	struct	line:5	class:lock_free_queue	file:
+data	E:\Code\concurrence\listing_7.20.cpp	/^        std::atomic<T*> data;$/;"	member	line:7	struct:lock_free_queue::node	file:
+count	E:\Code\concurrence\listing_7.20.cpp	/^        std::atomic<node_counter> count;$/;"	member	line:8	struct:lock_free_queue::node	file:
+next	E:\Code\concurrence\listing_7.20.cpp	/^        std::atomic<counted_node_ptr> next;$/;"	member	line:9	struct:lock_free_queue::node	file:
+pop	E:\Code\concurrence\listing_7.20.cpp	/^    std::unique_ptr<T> pop()$/;"	function	line:12	class:lock_free_queue	signature:()
+lock_free_queue	E:\Code\concurrence\listing_7.21.cpp	/^class lock_free_queue$/;"	class	line:2	file:
+set_new_tail	E:\Code\concurrence\listing_7.21.cpp	/^    void set_new_tail(counted_node_ptr &old_tail,$/;"	function	line:5	class:lock_free_queue	file:	signature:(counted_node_ptr &old_tail, counted_node_ptr const &new_tail)
+push	E:\Code\concurrence\listing_7.21.cpp	/^    void push(T new_value)$/;"	function	line:17	class:lock_free_queue	signature:(T new_value)
+lock_free_stack	E:\Code\concurrence\listing_7.3.cpp	/^class lock_free_stack$/;"	class	line:5	file:
+node	E:\Code\concurrence\listing_7.3.cpp	/^    struct node$/;"	struct	line:8	class:lock_free_stack	file:
+data	E:\Code\concurrence\listing_7.3.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:10	struct:lock_free_stack::node	file:
+next	E:\Code\concurrence\listing_7.3.cpp	/^        node* next;$/;"	member	line:11	struct:lock_free_stack::node	file:
+node	E:\Code\concurrence\listing_7.3.cpp	/^        node(T const& data_):$/;"	function	line:12	struct:lock_free_stack::node	signature:(T const& data_)
+head	E:\Code\concurrence\listing_7.3.cpp	/^    std::atomic<node*> head;$/;"	member	line:16	class:lock_free_stack	file:
+push	E:\Code\concurrence\listing_7.3.cpp	/^    void push(T const& data)$/;"	function	line:18	class:lock_free_stack	signature:(T const& data)
+pop	E:\Code\concurrence\listing_7.3.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:24	class:lock_free_stack	signature:()
+lock_free_stack	E:\Code\concurrence\listing_7.4.cpp	/^class lock_free_stack$/;"	class	line:5	file:
+threads_in_pop	E:\Code\concurrence\listing_7.4.cpp	/^    std::atomic<unsigned> threads_in_pop;$/;"	member	line:8	class:lock_free_stack	file:
+pop	E:\Code\concurrence\listing_7.4.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:11	class:lock_free_stack	signature:()
+lock_free_stack	E:\Code\concurrence\listing_7.5.cpp	/^class lock_free_stack$/;"	class	line:4	file:
+to_be_deleted	E:\Code\concurrence\listing_7.5.cpp	/^    std::atomic<node*> to_be_deleted;$/;"	member	line:7	class:lock_free_stack	file:
+delete_nodes	E:\Code\concurrence\listing_7.5.cpp	/^    static void delete_nodes(node* nodes)$/;"	function	line:8	class:lock_free_stack	file:	signature:(node* nodes)
+try_reclaim	E:\Code\concurrence\listing_7.5.cpp	/^    void try_reclaim(node* old_head)$/;"	function	line:17	class:lock_free_stack	file:	signature:(node* old_head)
+chain_pending_nodes	E:\Code\concurrence\listing_7.5.cpp	/^    void chain_pending_nodes(node* nodes)$/;"	function	line:38	class:lock_free_stack	file:	signature:(node* nodes)
+chain_pending_nodes	E:\Code\concurrence\listing_7.5.cpp	/^    void chain_pending_nodes(node* first,node* last)$/;"	function	line:47	class:lock_free_stack	file:	signature:(node* first,node* last)
+chain_pending_node	E:\Code\concurrence\listing_7.5.cpp	/^    void chain_pending_node(node* n)$/;"	function	line:53	class:lock_free_stack	file:	signature:(node* n)
+pop	E:\Code\concurrence\listing_7.6.cpp	/^std::shared_ptr<T> pop()$/;"	function	line:4	signature:()
+max_hazard_pointers	E:\Code\concurrence\listing_7.7.cpp	/^unsigned const max_hazard_pointers=100;$/;"	variable	line:4
+hazard_pointer	E:\Code\concurrence\listing_7.7.cpp	/^struct hazard_pointer$/;"	struct	line:5	file:
+id	E:\Code\concurrence\listing_7.7.cpp	/^    std::atomic<std::thread::id> id;$/;"	member	line:7	struct:hazard_pointer	file:
+pointer	E:\Code\concurrence\listing_7.7.cpp	/^    std::atomic<void*> pointer;$/;"	member	line:8	struct:hazard_pointer	file:
+hazard_pointers	E:\Code\concurrence\listing_7.7.cpp	/^hazard_pointer hazard_pointers[max_hazard_pointers];$/;"	variable	line:10
+hp_owner	E:\Code\concurrence\listing_7.7.cpp	/^class hp_owner$/;"	class	line:11	file:
+hp	E:\Code\concurrence\listing_7.7.cpp	/^    hazard_pointer* hp;$/;"	member	line:13	class:hp_owner	file:
+hp_owner	E:\Code\concurrence\listing_7.7.cpp	/^    hp_owner():$/;"	function	line:17	class:hp_owner	signature:()
+get_pointer	E:\Code\concurrence\listing_7.7.cpp	/^    std::atomic<void*>& get_pointer()$/;"	function	line:35	class:hp_owner	signature:()
+~hp_owner	E:\Code\concurrence\listing_7.7.cpp	/^    ~hp_owner()$/;"	function	line:39	class:hp_owner	signature:()
+get_hazard_pointer_for_current_thread	E:\Code\concurrence\listing_7.7.cpp	/^std::atomic<void*>& get_hazard_pointer_for_current_thread()$/;"	function	line:45	signature:()
+do_delete	E:\Code\concurrence\listing_7.8.cpp	/^void do_delete(void* p)$/;"	function	line:4	signature:(void* p)
+data_to_reclaim	E:\Code\concurrence\listing_7.8.cpp	/^struct data_to_reclaim$/;"	struct	line:8	file:
+data	E:\Code\concurrence\listing_7.8.cpp	/^    void* data;$/;"	member	line:10	struct:data_to_reclaim	file:
+deleter	E:\Code\concurrence\listing_7.8.cpp	/^    std::function<void(void*)> deleter;$/;"	member	line:11	struct:data_to_reclaim	file:
+next	E:\Code\concurrence\listing_7.8.cpp	/^    data_to_reclaim* next;$/;"	member	line:12	struct:data_to_reclaim	file:
+data_to_reclaim	E:\Code\concurrence\listing_7.8.cpp	/^    data_to_reclaim(T* p):$/;"	function	line:14	struct:data_to_reclaim	signature:(T* p)
+~data_to_reclaim	E:\Code\concurrence\listing_7.8.cpp	/^    ~data_to_reclaim()$/;"	function	line:19	struct:data_to_reclaim	signature:()
+nodes_to_reclaim	E:\Code\concurrence\listing_7.8.cpp	/^std::atomic<data_to_reclaim*> nodes_to_reclaim;$/;"	variable	line:24
+add_to_reclaim_list	E:\Code\concurrence\listing_7.8.cpp	/^void add_to_reclaim_list(data_to_reclaim* node)$/;"	function	line:25	signature:(data_to_reclaim* node)
+reclaim_later	E:\Code\concurrence\listing_7.8.cpp	/^void reclaim_later(T* data)$/;"	function	line:31	signature:(T* data)
+delete_nodes_with_no_hazards	E:\Code\concurrence\listing_7.8.cpp	/^void delete_nodes_with_no_hazards()$/;"	function	line:35	signature:()
+lock_free_stack	E:\Code\concurrence\listing_7.9.cpp	/^class lock_free_stack$/;"	class	line:5	file:
+node	E:\Code\concurrence\listing_7.9.cpp	/^    struct node$/;"	struct	line:8	class:lock_free_stack	file:
+data	E:\Code\concurrence\listing_7.9.cpp	/^        std::shared_ptr<T> data;$/;"	member	line:10	struct:lock_free_stack::node	file:
+next	E:\Code\concurrence\listing_7.9.cpp	/^        std::shared_ptr<node> next;$/;"	member	line:11	struct:lock_free_stack::node	file:
+node	E:\Code\concurrence\listing_7.9.cpp	/^        node(T const& data_):$/;"	function	line:12	struct:lock_free_stack::node	signature:(T const& data_)
+head	E:\Code\concurrence\listing_7.9.cpp	/^    std::shared_ptr<node> head;$/;"	member	line:16	class:lock_free_stack	file:
+push	E:\Code\concurrence\listing_7.9.cpp	/^    void push(T const& data)$/;"	function	line:18	class:lock_free_stack	signature:(T const& data)
+pop	E:\Code\concurrence\listing_7.9.cpp	/^    std::shared_ptr<T> pop()$/;"	function	line:25	class:lock_free_stack	signature:()
+sorter	E:\Code\concurrence\listing_8.1.cpp	/^struct sorter$/;"	struct	line:2	file:
+chunk_to_sort	E:\Code\concurrence\listing_8.1.cpp	/^    struct chunk_to_sort$/;"	struct	line:4	struct:sorter	file:
+data	E:\Code\concurrence\listing_8.1.cpp	/^        std::list<T> data;$/;"	member	line:6	struct:sorter::chunk_to_sort	file:
+promise	E:\Code\concurrence\listing_8.1.cpp	/^        std::promise<std::list<T> > promise;$/;"	member	line:7	struct:sorter::chunk_to_sort	file:
+chunks	E:\Code\concurrence\listing_8.1.cpp	/^    thread_safe_stack<chunk_to_sort> chunks;$/;"	member	line:10	struct:sorter	file:
+threads	E:\Code\concurrence\listing_8.1.cpp	/^    std::vector<std::thread> threads;$/;"	member	line:11	struct:sorter	file:
+max_thread_count	E:\Code\concurrence\listing_8.1.cpp	/^    unsigned const max_thread_count;$/;"	member	line:12	struct:sorter	file:
+end_of_data	E:\Code\concurrence\listing_8.1.cpp	/^    std::atomic<bool> end_of_data;$/;"	member	line:13	struct:sorter	file:
+sorter	E:\Code\concurrence\listing_8.1.cpp	/^    sorter():$/;"	function	line:15	struct:sorter	signature:()
+~sorter	E:\Code\concurrence\listing_8.1.cpp	/^    ~sorter()$/;"	function	line:20	struct:sorter	signature:()
+try_sort_chunk	E:\Code\concurrence\listing_8.1.cpp	/^    void try_sort_chunk()$/;"	function	line:29	struct:sorter	signature:()
+do_sort	E:\Code\concurrence\listing_8.1.cpp	/^    std::list<T> do_sort(std::list<T>& chunk_data)$/;"	function	line:38	struct:sorter	signature:(std::list<T>& chunk_data)
+sort_chunk	E:\Code\concurrence\listing_8.1.cpp	/^    void sort_chunk(boost::shared_ptr<chunk_to_sort > const& chunk)$/;"	function	line:78	struct:sorter	signature:(boost::shared_ptr<chunk_to_sort > const& chunk)
+sort_thread	E:\Code\concurrence\listing_8.1.cpp	/^    void sort_thread()$/;"	function	line:83	struct:sorter	signature:()
+parallel_quick_sort	E:\Code\concurrence\listing_8.1.cpp	/^std::list<T> parallel_quick_sort(std::list<T> input)$/;"	function	line:94	signature:(std::list<T> input)
+parallel_find_impl	E:\Code\concurrence\listing_8.10.cpp	/^Iterator parallel_find_impl(Iterator first,Iterator last,MatchType match,$/;"	function	line:2	signature:(Iterator first,Iterator last,MatchType match, std::atomic<bool>& done)
+parallel_find	E:\Code\concurrence\listing_8.10.cpp	/^Iterator parallel_find(Iterator first,Iterator last,MatchType match)$/;"	function	line:41	signature:(Iterator first,Iterator last,MatchType match)
+parallel_partial_sum	E:\Code\concurrence\listing_8.11.cpp	/^void parallel_partial_sum(Iterator first,Iterator last)$/;"	function	line:2	signature:(Iterator first,Iterator last)
+barrier	E:\Code\concurrence\listing_8.12.cpp	/^class barrier$/;"	class	line:1	file:
+count	E:\Code\concurrence\listing_8.12.cpp	/^    unsigned const count;$/;"	member	line:3	class:barrier	file:
+spaces	E:\Code\concurrence\listing_8.12.cpp	/^    std::atomic<unsigned> spaces;$/;"	member	line:4	class:barrier	file:
+generation	E:\Code\concurrence\listing_8.12.cpp	/^    std::atomic<unsigned> generation;$/;"	member	line:5	class:barrier	file:
+barrier	E:\Code\concurrence\listing_8.12.cpp	/^    explicit barrier(unsigned count_):$/;"	function	line:7	class:barrier	signature:(unsigned count_)
+wait	E:\Code\concurrence\listing_8.12.cpp	/^    void wait()$/;"	function	line:10	class:barrier	signature:()
+join_threads	E:\Code\concurrence\listing_8.13.cpp	/^struct join_threads$/;"	struct	line:5	file:
+join_threads	E:\Code\concurrence\listing_8.13.cpp	/^    join_threads(std::vector<std::thread>&)$/;"	function	line:7	struct:join_threads	signature:(std::vector<std::thread>&)
+barrier	E:\Code\concurrence\listing_8.13.cpp	/^struct barrier$/;"	struct	line:12	file:
+count	E:\Code\concurrence\listing_8.13.cpp	/^    std::atomic<unsigned> count;$/;"	member	line:14	struct:barrier	file:
+spaces	E:\Code\concurrence\listing_8.13.cpp	/^    std::atomic<unsigned> spaces;$/;"	member	line:15	struct:barrier	file:
+generation	E:\Code\concurrence\listing_8.13.cpp	/^    std::atomic<unsigned> generation;$/;"	member	line:16	struct:barrier	file:
+barrier	E:\Code\concurrence\listing_8.13.cpp	/^    barrier(unsigned count_):$/;"	function	line:17	struct:barrier	signature:(unsigned count_)
+wait	E:\Code\concurrence\listing_8.13.cpp	/^    void wait()$/;"	function	line:20	struct:barrier	signature:()
+done_waiting	E:\Code\concurrence\listing_8.13.cpp	/^    void done_waiting()$/;"	function	line:37	struct:barrier	signature:()
+parallel_partial_sum	E:\Code\concurrence\listing_8.13.cpp	/^void parallel_partial_sum(Iterator first,Iterator last)$/;"	function	line:49	signature:(Iterator first,Iterator last)
+accumulate_block	E:\Code\concurrence\listing_8.2.cpp	/^struct accumulate_block$/;"	struct	line:2	file:
+operator ()	E:\Code\concurrence\listing_8.2.cpp	/^    void operator()(Iterator first,Iterator last,T& result)$/;"	function	line:4	struct:accumulate_block	signature:(Iterator first,Iterator last,T& result)
+parallel_accumulate	E:\Code\concurrence\listing_8.2.cpp	/^T parallel_accumulate(Iterator first,Iterator last,T init)$/;"	function	line:11	signature:(Iterator first,Iterator last,T init)
+accumulate_block	E:\Code\concurrence\listing_8.3.cpp	/^struct accumulate_block$/;"	struct	line:2	file:
+operator ()	E:\Code\concurrence\listing_8.3.cpp	/^    T operator()(Iterator first,Iterator last)$/;"	function	line:4	struct:accumulate_block	signature:(Iterator first,Iterator last)
+parallel_accumulate	E:\Code\concurrence\listing_8.3.cpp	/^T parallel_accumulate(Iterator first,Iterator last,T init)$/;"	function	line:11	signature:(Iterator first,Iterator last,T init)
+parallel_accumulate	E:\Code\concurrence\listing_8.4.cpp	/^T parallel_accumulate(Iterator first,Iterator last,T init)$/;"	function	line:2	signature:(Iterator first,Iterator last,T init)
+parallel_accumulate	E:\Code\concurrence\listing_8.5.cpp	/^T parallel_accumulate(Iterator first,Iterator last,T init)$/;"	function	line:2	signature:(Iterator first,Iterator last,T init)
+task_thread	E:\Code\concurrence\listing_8.6.cpp	/^std::thread task_thread;$/;"	variable	line:1
+gui_thread	E:\Code\concurrence\listing_8.6.cpp	/^void gui_thread()$/;"	function	line:4	signature:()
+task	E:\Code\concurrence\listing_8.6.cpp	/^void task()$/;"	function	line:15	signature:()
+process	E:\Code\concurrence\listing_8.6.cpp	/^void process(event_data const& event)$/;"	function	line:31	signature:(event_data const& event)
+parallel_for_each	E:\Code\concurrence\listing_8.7.cpp	/^void parallel_for_each(Iterator first,Iterator last,Func f)$/;"	function	line:2	signature:(Iterator first,Iterator last,Func f)
+parallel_for_each	E:\Code\concurrence\listing_8.8.cpp	/^void parallel_for_each(Iterator first,Iterator last,Func f)$/;"	function	line:2	signature:(Iterator first,Iterator last,Func f)
+parallel_find	E:\Code\concurrence\listing_8.9.cpp	/^Iterator parallel_find(Iterator first,Iterator last,MatchType match)$/;"	function	line:2	signature:(Iterator first,Iterator last,MatchType match)
+thread_pool	E:\Code\concurrence\listing_9.1.cpp	/^class thread_pool$/;"	class	line:1	file:
+done	E:\Code\concurrence\listing_9.1.cpp	/^    std::atomic_bool done;$/;"	member	line:3	class:thread_pool	file:
+work_queue	E:\Code\concurrence\listing_9.1.cpp	/^    thread_safe_queue<std::function<void()> > work_queue;$/;"	member	line:4	class:thread_pool	file:
+threads	E:\Code\concurrence\listing_9.1.cpp	/^    std::vector<std::thread> threads;$/;"	member	line:5	class:thread_pool	file:
+joiner	E:\Code\concurrence\listing_9.1.cpp	/^    join_threads joiner;$/;"	member	line:6	class:thread_pool	file:
+worker_thread	E:\Code\concurrence\listing_9.1.cpp	/^    void worker_thread()$/;"	function	line:8	class:thread_pool	file:	signature:()
+thread_pool	E:\Code\concurrence\listing_9.1.cpp	/^    thread_pool():$/;"	function	line:24	class:thread_pool	signature:()
+~thread_pool	E:\Code\concurrence\listing_9.1.cpp	/^    ~thread_pool()$/;"	function	line:43	class:thread_pool	signature:()
+submit	E:\Code\concurrence\listing_9.1.cpp	/^    void submit(FunctionType f)$/;"	function	line:49	class:thread_pool	signature:(FunctionType f)
+interruptible_wait	E:\Code\concurrence\listing_9.10.cpp	/^void interruptible_wait(std::condition_variable& cv,$/;"	function	line:1	signature:(std::condition_variable& cv, std::unique_lock<std::mutex>& lk)
+interrupt_flag	E:\Code\concurrence\listing_9.11.cpp	/^class interrupt_flag$/;"	class	line:1	file:
+flag	E:\Code\concurrence\listing_9.11.cpp	/^    std::atomic<bool> flag;$/;"	member	line:3	class:interrupt_flag	file:
+thread_cond	E:\Code\concurrence\listing_9.11.cpp	/^    std::condition_variable* thread_cond;$/;"	member	line:4	class:interrupt_flag	file:
+set_clear_mutex	E:\Code\concurrence\listing_9.11.cpp	/^    std::mutex set_clear_mutex;$/;"	member	line:5	class:interrupt_flag	file:
+interrupt_flag	E:\Code\concurrence\listing_9.11.cpp	/^    interrupt_flag():$/;"	function	line:8	class:interrupt_flag	signature:()
+set	E:\Code\concurrence\listing_9.11.cpp	/^    void set()$/;"	function	line:12	class:interrupt_flag	signature:()
+is_set	E:\Code\concurrence\listing_9.11.cpp	/^    bool is_set() const$/;"	function	line:22	class:interrupt_flag	signature:() const
+set_condition_variable	E:\Code\concurrence\listing_9.11.cpp	/^    void set_condition_variable(std::condition_variable& cv)$/;"	function	line:27	class:interrupt_flag	signature:(std::condition_variable& cv)
+clear_condition_variable	E:\Code\concurrence\listing_9.11.cpp	/^    void clear_condition_variable()$/;"	function	line:33	class:interrupt_flag	signature:()
+clear_cv_on_destruct	E:\Code\concurrence\listing_9.11.cpp	/^    struct clear_cv_on_destruct$/;"	struct	line:39	class:interrupt_flag	file:
+~clear_cv_on_destruct	E:\Code\concurrence\listing_9.11.cpp	/^        ~clear_cv_on_destruct()$/;"	function	line:41	struct:interrupt_flag::clear_cv_on_destruct	signature:()
+interruptible_wait	E:\Code\concurrence\listing_9.11.cpp	/^void interruptible_wait(std::condition_variable& cv,$/;"	function	line:48	signature:(std::condition_variable& cv, std::unique_lock<std::mutex>& lk)
+interrupt_flag	E:\Code\concurrence\listing_9.12.cpp	/^class interrupt_flag$/;"	class	line:1	file:
+flag	E:\Code\concurrence\listing_9.12.cpp	/^    std::atomic<bool> flag;$/;"	member	line:3	class:interrupt_flag	file:
+thread_cond	E:\Code\concurrence\listing_9.12.cpp	/^    std::condition_variable* thread_cond;$/;"	member	line:4	class:interrupt_flag	file:
+thread_cond_any	E:\Code\concurrence\listing_9.12.cpp	/^    std::condition_variable_any* thread_cond_any;$/;"	member	line:5	class:interrupt_flag	file:
+set_clear_mutex	E:\Code\concurrence\listing_9.12.cpp	/^    std::mutex set_clear_mutex;$/;"	member	line:6	class:interrupt_flag	file:
+interrupt_flag	E:\Code\concurrence\listing_9.12.cpp	/^    interrupt_flag():$/;"	function	line:9	class:interrupt_flag	signature:()
+set	E:\Code\concurrence\listing_9.12.cpp	/^    void set()$/;"	function	line:14	class:interrupt_flag	signature:()
+wait	E:\Code\concurrence\listing_9.12.cpp	/^    void wait(std::condition_variable_any& cv,Lockable& lk)$/;"	function	line:29	class:interrupt_flag	signature:(std::condition_variable_any& cv,Lockable& lk)
+interruptible_wait	E:\Code\concurrence\listing_9.12.cpp	/^void interruptible_wait(std::condition_variable_any& cv,$/;"	function	line:73	signature:(std::condition_variable_any& cv, Lockable& lk)
+config_mutex	E:\Code\concurrence\listing_9.13.cpp	/^std::mutex config_mutex;$/;"	variable	line:1
+background_threads	E:\Code\concurrence\listing_9.13.cpp	/^std::vector<interruptible_thread> background_threads;$/;"	variable	line:2
+background_thread	E:\Code\concurrence\listing_9.13.cpp	/^void background_thread(int disk_id)$/;"	function	line:4	signature:(int disk_id)
+start_background_processing	E:\Code\concurrence\listing_9.13.cpp	/^void start_background_processing()$/;"	function	line:17	signature:()
+main	E:\Code\concurrence\listing_9.13.cpp	/^int main()$/;"	function	line:25	signature:()
+function_wrapper	E:\Code\concurrence\listing_9.2.cpp	/^class function_wrapper$/;"	class	line:8	file:
+impl_base	E:\Code\concurrence\listing_9.2.cpp	/^    struct impl_base {$/;"	struct	line:10	class:function_wrapper	file:
+~impl_base	E:\Code\concurrence\listing_9.2.cpp	/^        virtual ~impl_base() {}$/;"	function	line:12	struct:function_wrapper::impl_base	signature:()
+impl	E:\Code\concurrence\listing_9.2.cpp	/^    std::unique_ptr<impl_base> impl;$/;"	member	line:14	class:function_wrapper	file:
+impl_type	E:\Code\concurrence\listing_9.2.cpp	/^    struct impl_type: impl_base$/;"	struct	line:16	class:function_wrapper	file:
+f	E:\Code\concurrence\listing_9.2.cpp	/^        F f;$/;"	member	line:18	struct:function_wrapper::impl_type	file:
+impl_type	E:\Code\concurrence\listing_9.2.cpp	/^        impl_type(F&& f_): f(std::move(f_)) {}$/;"	function	line:19	struct:function_wrapper::impl_type	signature:(F&& f_)
+call	E:\Code\concurrence\listing_9.2.cpp	/^        void call() { f(); }$/;"	function	line:20	struct:function_wrapper::impl_type	signature:()
+function_wrapper	E:\Code\concurrence\listing_9.2.cpp	/^    function_wrapper(F&& f):$/;"	function	line:24	class:function_wrapper	signature:(F&& f)
+call	E:\Code\concurrence\listing_9.2.cpp	/^    void call() { impl->call(); }$/;"	function	line:28	class:function_wrapper	signature:()
+function_wrapper	E:\Code\concurrence\listing_9.2.cpp	/^    function_wrapper(function_wrapper&& other):$/;"	function	line:30	class:function_wrapper	signature:(function_wrapper&& other)
+operator =	E:\Code\concurrence\listing_9.2.cpp	/^    function_wrapper& operator=(function_wrapper&& other)$/;"	function	line:34	class:function_wrapper	signature:(function_wrapper&& other)
+thread_pool	E:\Code\concurrence\listing_9.2.cpp	/^class thread_pool$/;"	class	line:45	file:
+work_queue	E:\Code\concurrence\listing_9.2.cpp	/^    std::deque<function_wrapper> work_queue;$/;"	member	line:48	class:thread_pool	file:
+submit	E:\Code\concurrence\listing_9.2.cpp	/^    submit(FunctionType f)$/;"	function	line:52	class:thread_pool	signature:(FunctionType f)
+parallel_accumulate	E:\Code\concurrence\listing_9.3.cpp	/^T parallel_accumulate(Iterator first,Iterator last,T init)$/;"	function	line:2	signature:(Iterator first,Iterator last,T init)
+run_pending_task	E:\Code\concurrence\listing_9.4.cpp	/^void thread_pool::run_pending_task()$/;"	function	line:1	class:thread_pool	signature:()
+sorter	E:\Code\concurrence\listing_9.5.cpp	/^struct sorter$/;"	struct	line:2	file:
+pool	E:\Code\concurrence\listing_9.5.cpp	/^    thread_pool pool;$/;"	member	line:4	struct:sorter	file:
+do_sort	E:\Code\concurrence\listing_9.5.cpp	/^    std::list<T> do_sort(std::list<T>& chunk_data)$/;"	function	line:6	struct:sorter	signature:(std::list<T>& chunk_data)
+parallel_quick_sort	E:\Code\concurrence\listing_9.5.cpp	/^std::list<T> parallel_quick_sort(std::list<T> input)$/;"	function	line:49	signature:(std::list<T> input)
+thread_pool	E:\Code\concurrence\listing_9.6.cpp	/^class thread_pool$/;"	class	line:1	file:
+pool_work_queue	E:\Code\concurrence\listing_9.6.cpp	/^    thread_safe_queue<function_wrapper> pool_work_queue;$/;"	member	line:3	class:thread_pool	file:
+local_queue_type	E:\Code\concurrence\listing_9.6.cpp	/^    typedef std::queue<function_wrapper> local_queue_type;$/;"	typedef	line:5	class:thread_pool	file:
+local_work_queue	E:\Code\concurrence\listing_9.6.cpp	/^        local_work_queue;$/;"	member	line:7	class:thread_pool	file:
+worker_thread	E:\Code\concurrence\listing_9.6.cpp	/^    void worker_thread()$/;"	function	line:9	class:thread_pool	file:	signature:()
+submit	E:\Code\concurrence\listing_9.6.cpp	/^        submit(FunctionType f)$/;"	function	line:22	class:thread_pool	signature:(FunctionType f)
+run_pending_task	E:\Code\concurrence\listing_9.6.cpp	/^    void run_pending_task()$/;"	function	line:39	class:thread_pool	signature:()
+work_stealing_queue	E:\Code\concurrence\listing_9.7.cpp	/^class work_stealing_queue$/;"	class	line:1	file:
+data_type	E:\Code\concurrence\listing_9.7.cpp	/^    typedef function_wrapper data_type;$/;"	typedef	line:4	class:work_stealing_queue	file:
+the_queue	E:\Code\concurrence\listing_9.7.cpp	/^    std::deque<data_type> the_queue;$/;"	member	line:5	class:work_stealing_queue	file:
+the_mutex	E:\Code\concurrence\listing_9.7.cpp	/^    mutable std::mutex the_mutex;$/;"	member	line:6	class:work_stealing_queue	file:
+work_stealing_queue	E:\Code\concurrence\listing_9.7.cpp	/^    work_stealing_queue()$/;"	function	line:9	class:work_stealing_queue	signature:()
+other	E:\Code\concurrence\listing_9.7.cpp	/^    work_stealing_queue(const work_stealing_queue& other)=delete;$/;"	member	line:12	class:work_stealing_queue	file:
+other	E:\Code\concurrence\listing_9.7.cpp	/^        const work_stealing_queue& other)=delete;$/;"	member	line:14	class:work_stealing_queue	file:
+push	E:\Code\concurrence\listing_9.7.cpp	/^    void push(data_type data)$/;"	function	line:16	class:work_stealing_queue	signature:(data_type data)
+empty	E:\Code\concurrence\listing_9.7.cpp	/^    bool empty() const$/;"	function	line:22	class:work_stealing_queue	signature:() const
+try_pop	E:\Code\concurrence\listing_9.7.cpp	/^    bool try_pop(data_type& res)$/;"	function	line:28	class:work_stealing_queue	signature:(data_type& res)
+try_steal	E:\Code\concurrence\listing_9.7.cpp	/^    bool try_steal(data_type& res)$/;"	function	line:41	class:work_stealing_queue	signature:(data_type& res)
+thread_pool	E:\Code\concurrence\listing_9.8.cpp	/^class thread_pool$/;"	class	line:1	file:
+task_type	E:\Code\concurrence\listing_9.8.cpp	/^    typedef function_wrapper task_type;$/;"	typedef	line:3	class:thread_pool	file:
+done	E:\Code\concurrence\listing_9.8.cpp	/^    std::atomic_bool done;$/;"	member	line:5	class:thread_pool	file:
+pool_work_queue	E:\Code\concurrence\listing_9.8.cpp	/^    thread_safe_queue<task_type> pool_work_queue;$/;"	member	line:6	class:thread_pool	file:
+queues	E:\Code\concurrence\listing_9.8.cpp	/^    std::vector<std::unique_ptr<work_stealing_queue> > queues;$/;"	member	line:7	class:thread_pool	file:
+threads	E:\Code\concurrence\listing_9.8.cpp	/^    std::vector<std::thread> threads;$/;"	member	line:8	class:thread_pool	file:
+joiner	E:\Code\concurrence\listing_9.8.cpp	/^    join_threads joiner;$/;"	member	line:9	class:thread_pool	file:
+local_work_queue	E:\Code\concurrence\listing_9.8.cpp	/^    static thread_local work_stealing_queue* local_work_queue;$/;"	member	line:11	class:thread_pool	file:
+my_index	E:\Code\concurrence\listing_9.8.cpp	/^    static thread_local unsigned my_index;$/;"	member	line:12	class:thread_pool	file:
+worker_thread	E:\Code\concurrence\listing_9.8.cpp	/^    void worker_thread(unsigned my_index_)$/;"	function	line:14	class:thread_pool	file:	signature:(unsigned my_index_)
+pop_task_from_local_queue	E:\Code\concurrence\listing_9.8.cpp	/^    bool pop_task_from_local_queue(task_type& task)$/;"	function	line:24	class:thread_pool	file:	signature:(task_type& task)
+pop_task_from_pool_queue	E:\Code\concurrence\listing_9.8.cpp	/^    bool pop_task_from_pool_queue(task_type& task)$/;"	function	line:29	class:thread_pool	file:	signature:(task_type& task)
+pop_task_from_other_thread_queue	E:\Code\concurrence\listing_9.8.cpp	/^    bool pop_task_from_other_thread_queue(task_type& task)$/;"	function	line:34	class:thread_pool	file:	signature:(task_type& task)
+thread_pool	E:\Code\concurrence\listing_9.8.cpp	/^    thread_pool():$/;"	function	line:49	class:thread_pool	signature:()
+~thread_pool	E:\Code\concurrence\listing_9.8.cpp	/^    ~thread_pool()$/;"	function	line:71	class:thread_pool	signature:()
+submit	E:\Code\concurrence\listing_9.8.cpp	/^    task_handle<std::result_of<FunctionType()>::type> submit($/;"	function	line:80	class:thread_pool	signature:( FunctionType f)
+run_pending_task	E:\Code\concurrence\listing_9.8.cpp	/^    void run_pending_task()$/;"	function	line:98	class:thread_pool	signature:()
+interrupt_flag	E:\Code\concurrence\listing_9.9.cpp	/^class interrupt_flag$/;"	class	line:1	file:
+this_thread_interrupt_flag	E:\Code\concurrence\listing_9.9.cpp	/^thread_local interrupt_flag this_thread_interrupt_flag;$/;"	variable	line:7
+interruptible_thread	E:\Code\concurrence\listing_9.9.cpp	/^class interruptible_thread$/;"	class	line:9	file:
+internal_thread	E:\Code\concurrence\listing_9.9.cpp	/^    std::thread internal_thread;$/;"	member	line:11	class:interruptible_thread	file:
+flag	E:\Code\concurrence\listing_9.9.cpp	/^    interrupt_flag* flag;$/;"	member	line:12	class:interruptible_thread	file:
+interruptible_thread	E:\Code\concurrence\listing_9.9.cpp	/^    interruptible_thread(FunctionType f)$/;"	function	line:15	class:interruptible_thread	signature:(FunctionType f)
+interrupt	E:\Code\concurrence\listing_9.9.cpp	/^    void interrupt()$/;"	function	line:24	class:interruptible_thread	signature:()
+X	E:\Code\concurrence\listing_a.1.cpp	/^class X$/;"	class	line:1	file:
+data	E:\Code\concurrence\listing_a.1.cpp	/^    int* data;$/;"	member	line:4	class:X	file:
+X	E:\Code\concurrence\listing_a.1.cpp	/^    X():$/;"	function	line:6	class:X	signature:()
+~X	E:\Code\concurrence\listing_a.1.cpp	/^    ~X()$/;"	function	line:9	class:X	signature:()
+X	E:\Code\concurrence\listing_a.1.cpp	/^    X(const X& other):$/;"	function	line:13	class:X	signature:(const X& other)
+X	E:\Code\concurrence\listing_a.1.cpp	/^    X(X&& other):$/;"	function	line:18	class:X	signature:(X&& other)
+move_only	E:\Code\concurrence\listing_a.2.cpp	/^class move_only$/;"	class	line:1	file:
+data	E:\Code\concurrence\listing_a.2.cpp	/^    std::unique_ptr<my_class> data;$/;"	member	line:3	class:move_only	file:
+move_only	E:\Code\concurrence\listing_a.2.cpp	/^    move_only(move_only&& other):$/;"	function	line:6	class:move_only	signature:(move_only&& other)
+operator =	E:\Code\concurrence\listing_a.2.cpp	/^    move_only& operator=(move_only&& other)$/;"	function	line:10	class:move_only	signature:(move_only&& other)
+m1	E:\Code\concurrence\listing_a.2.cpp	/^move_only m1;$/;"	variable	line:16
+CX	E:\Code\concurrence\listing_a.3.cpp	/^class CX$/;"	class	line:1	file:
+a	E:\Code\concurrence\listing_a.3.cpp	/^    int a;$/;"	member	line:4	class:CX	file:
+b	E:\Code\concurrence\listing_a.3.cpp	/^    int b;$/;"	member	line:5	class:CX	file:
+CX	E:\Code\concurrence\listing_a.3.cpp	/^    CX(int a_, int b_):$/;"	function	line:8	class:CX	signature:(int a_, int b_)
+get_a	E:\Code\concurrence\listing_a.3.cpp	/^    int get_a() const$/;"	function	line:11	class:CX	signature:() const
+get_b	E:\Code\concurrence\listing_a.3.cpp	/^    int get_b() const$/;"	function	line:15	class:CX	signature:() const
+foo	E:\Code\concurrence\listing_a.3.cpp	/^    int foo() const$/;"	function	line:19	class:CX	signature:() const
+cond	E:\Code\concurrence\listing_a.4.cpp	/^std::condition_variable cond;$/;"	variable	line:1
+data_ready	E:\Code\concurrence\listing_a.4.cpp	/^bool data_ready;$/;"	variable	line:2
+m	E:\Code\concurrence\listing_a.4.cpp	/^std::mutex m;$/;"	variable	line:3
+wait_for_data	E:\Code\concurrence\listing_a.4.cpp	/^void wait_for_data()$/;"	function	line:4	signature:()
+messaging	E:\Code\concurrence\listing_c.1.cpp	/^namespace messaging$/;"	namespace	line:5	file:
+message_base	E:\Code\concurrence\listing_c.1.cpp	/^    struct message_base$/;"	struct	line:7	namespace:messaging	file:
+~message_base	E:\Code\concurrence\listing_c.1.cpp	/^        virtual ~message_base()$/;"	function	line:9	struct:messaging::message_base	signature:()
+wrapped_message	E:\Code\concurrence\listing_c.1.cpp	/^    struct wrapped_message:$/;"	struct	line:14	namespace:messaging	file:
+contents	E:\Code\concurrence\listing_c.1.cpp	/^        Msg contents;$/;"	member	line:17	struct:messaging::wrapped_message	file:
+wrapped_message	E:\Code\concurrence\listing_c.1.cpp	/^        explicit wrapped_message(Msg const& contents_):$/;"	function	line:18	struct:messaging::wrapped_message	signature:(Msg const& contents_)
+queue	E:\Code\concurrence\listing_c.1.cpp	/^    class queue$/;"	class	line:23	namespace:messaging	file:
+m	E:\Code\concurrence\listing_c.1.cpp	/^        std::mutex m;$/;"	member	line:25	class:messaging::queue	file:
+c	E:\Code\concurrence\listing_c.1.cpp	/^        std::condition_variable c;$/;"	member	line:26	class:messaging::queue	file:
+q	E:\Code\concurrence\listing_c.1.cpp	/^        std::queue<std::shared_ptr<message_base> > q;$/;"	member	line:28	class:messaging::queue	file:
+push	E:\Code\concurrence\listing_c.1.cpp	/^        void push(T const& msg)$/;"	function	line:31	class:messaging::queue	signature:(T const& msg)
+wait_and_pop	E:\Code\concurrence\listing_c.1.cpp	/^        std::shared_ptr<message_base> wait_and_pop()$/;"	function	line:37	class:messaging::queue	signature:()
+main	E:\Code\concurrence\listing_c.10.cpp	/^int main()$/;"	function	line:1	signature:()
+messaging	E:\Code\concurrence\listing_c.2.cpp	/^namespace messaging$/;"	namespace	line:1	file:
+sender	E:\Code\concurrence\listing_c.2.cpp	/^    class sender$/;"	class	line:3	namespace:messaging	file:
+q	E:\Code\concurrence\listing_c.2.cpp	/^        queue*q;$/;"	member	line:5	class:messaging::sender	file:
+sender	E:\Code\concurrence\listing_c.2.cpp	/^        sender():$/;"	function	line:7	class:messaging::sender	signature:()
+sender	E:\Code\concurrence\listing_c.2.cpp	/^        explicit sender(queue*q_):$/;"	function	line:10	class:messaging::sender	signature:(queue*q_)
+send	E:\Code\concurrence\listing_c.2.cpp	/^        void send(Message const& msg)$/;"	function	line:14	class:messaging::sender	signature:(Message const& msg)
+messaging	E:\Code\concurrence\listing_c.3.cpp	/^namespace messaging$/;"	namespace	line:1	file:
+receiver	E:\Code\concurrence\listing_c.3.cpp	/^    class receiver$/;"	class	line:3	namespace:messaging	file:
+q	E:\Code\concurrence\listing_c.3.cpp	/^        queue q;$/;"	member	line:5	class:messaging::receiver	file:
+operator sender	E:\Code\concurrence\listing_c.3.cpp	/^        operator sender()$/;"	function	line:7	class:messaging::receiver	signature:()
+wait	E:\Code\concurrence\listing_c.3.cpp	/^        dispatcher wait()$/;"	function	line:11	class:messaging::receiver	signature:()
+messaging	E:\Code\concurrence\listing_c.4.cpp	/^namespace messaging$/;"	namespace	line:1	file:
+close_queue	E:\Code\concurrence\listing_c.4.cpp	/^    class close_queue$/;"	class	line:3	namespace:messaging	file:
+dispatcher	E:\Code\concurrence\listing_c.4.cpp	/^    class dispatcher$/;"	class	line:6	namespace:messaging	file:
+q	E:\Code\concurrence\listing_c.4.cpp	/^        queue* q;$/;"	member	line:8	class:messaging::dispatcher	file:
+chained	E:\Code\concurrence\listing_c.4.cpp	/^        bool chained;$/;"	member	line:9	class:messaging::dispatcher	file:
+wait_and_dispatch	E:\Code\concurrence\listing_c.4.cpp	/^        void wait_and_dispatch()$/;"	function	line:20	class:messaging::dispatcher	file:	signature:()
+dispatch	E:\Code\concurrence\listing_c.4.cpp	/^        bool dispatch($/;"	function	line:29	class:messaging::dispatcher	file:	signature:( std::shared_ptr<message_base> const& msg)
+dispatcher	E:\Code\concurrence\listing_c.4.cpp	/^        dispatcher(dispatcher&& other):$/;"	function	line:39	class:messaging::dispatcher	signature:(dispatcher&& other)
+dispatcher	E:\Code\concurrence\listing_c.4.cpp	/^        explicit dispatcher(queue* q_):$/;"	function	line:45	class:messaging::dispatcher	signature:(queue* q_)
+handle	E:\Code\concurrence\listing_c.4.cpp	/^        handle(Func&& f)$/;"	function	line:51	class:messaging::dispatcher	signature:(Func&& f)
+noexcept	E:\Code\concurrence\listing_c.4.cpp	/^        ~dispatcher() noexcept(false)$/;"	function	line:57	class:messaging::dispatcher	signature:(false)
+messaging	E:\Code\concurrence\listing_c.5.cpp	/^namespace messaging$/;"	namespace	line:1	file:
+TemplateDispatcher	E:\Code\concurrence\listing_c.5.cpp	/^    class TemplateDispatcher$/;"	class	line:4	namespace:messaging	file:
+q	E:\Code\concurrence\listing_c.5.cpp	/^        queue* q;$/;"	member	line:6	class:messaging::TemplateDispatcher	file:
+prev	E:\Code\concurrence\listing_c.5.cpp	/^        PreviousDispatcher* prev;$/;"	member	line:7	class:messaging::TemplateDispatcher	file:
+f	E:\Code\concurrence\listing_c.5.cpp	/^        Func f;$/;"	member	line:8	class:messaging::TemplateDispatcher	file:
+chained	E:\Code\concurrence\listing_c.5.cpp	/^        bool chained;$/;"	member	line:9	class:messaging::TemplateDispatcher	file:
+wait_and_dispatch	E:\Code\concurrence\listing_c.5.cpp	/^        void wait_and_dispatch()$/;"	function	line:17	class:messaging::TemplateDispatcher	file:	signature:()
+dispatch	E:\Code\concurrence\listing_c.5.cpp	/^        bool dispatch(std::shared_ptr<message_base> const& msg)$/;"	function	line:27	class:messaging::TemplateDispatcher	file:	signature:(std::shared_ptr<message_base> const& msg)
+TemplateDispatcher	E:\Code\concurrence\listing_c.5.cpp	/^        TemplateDispatcher(TemplateDispatcher&& other):$/;"	function	line:41	class:messaging::TemplateDispatcher	signature:(TemplateDispatcher&& other)
+TemplateDispatcher	E:\Code\concurrence\listing_c.5.cpp	/^        TemplateDispatcher(queue* q_,PreviousDispatcher* prev_,Func&& f_):$/;"	function	line:48	class:messaging::TemplateDispatcher	signature:(queue* q_,PreviousDispatcher* prev_,Func&& f_)
+handle	E:\Code\concurrence\listing_c.5.cpp	/^        handle(OtherFunc&& of)$/;"	function	line:56	class:messaging::TemplateDispatcher	signature:(OtherFunc&& of)
+noexcept	E:\Code\concurrence\listing_c.5.cpp	/^        ~TemplateDispatcher() noexcept(false)$/;"	function	line:63	class:messaging::TemplateDispatcher	signature:(false)
+withdraw	E:\Code\concurrence\listing_c.6.cpp	/^struct withdraw$/;"	struct	line:1	file:
+account	E:\Code\concurrence\listing_c.6.cpp	/^    std::string account;$/;"	member	line:3	struct:withdraw	file:
+amount	E:\Code\concurrence\listing_c.6.cpp	/^    unsigned amount;$/;"	member	line:4	struct:withdraw	file:
+atm_queue	E:\Code\concurrence\listing_c.6.cpp	/^    mutable messaging::sender atm_queue;$/;"	member	line:5	struct:withdraw	file:
+withdraw	E:\Code\concurrence\listing_c.6.cpp	/^    withdraw(std::string const& account_,$/;"	function	line:6	struct:withdraw	signature:(std::string const& account_, unsigned amount_, messaging::sender atm_queue_)
+withdraw_ok	E:\Code\concurrence\listing_c.6.cpp	/^struct withdraw_ok$/;"	struct	line:13	file:
+withdraw_denied	E:\Code\concurrence\listing_c.6.cpp	/^struct withdraw_denied$/;"	struct	line:15	file:
+cancel_withdrawal	E:\Code\concurrence\listing_c.6.cpp	/^struct cancel_withdrawal$/;"	struct	line:17	file:
+account	E:\Code\concurrence\listing_c.6.cpp	/^    std::string account;$/;"	member	line:19	struct:cancel_withdrawal	file:
+amount	E:\Code\concurrence\listing_c.6.cpp	/^    unsigned amount;$/;"	member	line:20	struct:cancel_withdrawal	file:
+cancel_withdrawal	E:\Code\concurrence\listing_c.6.cpp	/^    cancel_withdrawal(std::string const& account_,$/;"	function	line:21	struct:cancel_withdrawal	signature:(std::string const& account_, unsigned amount_)
+withdrawal_processed	E:\Code\concurrence\listing_c.6.cpp	/^struct withdrawal_processed$/;"	struct	line:26	file:
+account	E:\Code\concurrence\listing_c.6.cpp	/^    std::string account;$/;"	member	line:28	struct:withdrawal_processed	file:
+amount	E:\Code\concurrence\listing_c.6.cpp	/^    unsigned amount;$/;"	member	line:29	struct:withdrawal_processed	file:
+withdrawal_processed	E:\Code\concurrence\listing_c.6.cpp	/^    withdrawal_processed(std::string const& account_,$/;"	function	line:30	struct:withdrawal_processed	signature:(std::string const& account_, unsigned amount_)
+card_inserted	E:\Code\concurrence\listing_c.6.cpp	/^struct card_inserted$/;"	struct	line:35	file:
+account	E:\Code\concurrence\listing_c.6.cpp	/^    std::string account;$/;"	member	line:37	struct:card_inserted	file:
+card_inserted	E:\Code\concurrence\listing_c.6.cpp	/^    explicit card_inserted(std::string const& account_):$/;"	function	line:38	struct:card_inserted	signature:(std::string const& account_)
+digit_pressed	E:\Code\concurrence\listing_c.6.cpp	/^struct digit_pressed$/;"	struct	line:42	file:
+digit	E:\Code\concurrence\listing_c.6.cpp	/^    char digit;$/;"	member	line:44	struct:digit_pressed	file:
+digit_pressed	E:\Code\concurrence\listing_c.6.cpp	/^    explicit digit_pressed(char digit_):$/;"	function	line:45	struct:digit_pressed	signature:(char digit_)
+clear_last_pressed	E:\Code\concurrence\listing_c.6.cpp	/^struct clear_last_pressed$/;"	struct	line:49	file:
+eject_card	E:\Code\concurrence\listing_c.6.cpp	/^struct eject_card$/;"	struct	line:51	file:
+withdraw_pressed	E:\Code\concurrence\listing_c.6.cpp	/^struct withdraw_pressed$/;"	struct	line:53	file:
+amount	E:\Code\concurrence\listing_c.6.cpp	/^    unsigned amount;$/;"	member	line:55	struct:withdraw_pressed	file:
+withdraw_pressed	E:\Code\concurrence\listing_c.6.cpp	/^    explicit withdraw_pressed(unsigned amount_):$/;"	function	line:56	struct:withdraw_pressed	signature:(unsigned amount_)
+cancel_pressed	E:\Code\concurrence\listing_c.6.cpp	/^struct cancel_pressed$/;"	struct	line:60	file:
+issue_money	E:\Code\concurrence\listing_c.6.cpp	/^struct issue_money$/;"	struct	line:62	file:
+amount	E:\Code\concurrence\listing_c.6.cpp	/^    unsigned amount;$/;"	member	line:64	struct:issue_money	file:
+issue_money	E:\Code\concurrence\listing_c.6.cpp	/^    issue_money(unsigned amount_):$/;"	function	line:65	struct:issue_money	signature:(unsigned amount_)
+verify_pin	E:\Code\concurrence\listing_c.6.cpp	/^struct verify_pin$/;"	struct	line:69	file:
+account	E:\Code\concurrence\listing_c.6.cpp	/^    std::string account;$/;"	member	line:71	struct:verify_pin	file:
+pin	E:\Code\concurrence\listing_c.6.cpp	/^    std::string pin;$/;"	member	line:72	struct:verify_pin	file:
+atm_queue	E:\Code\concurrence\listing_c.6.cpp	/^    mutable messaging::sender atm_queue;$/;"	member	line:73	struct:verify_pin	file:
+verify_pin	E:\Code\concurrence\listing_c.6.cpp	/^    verify_pin(std::string const& account_,std::string const& pin_,$/;"	function	line:74	struct:verify_pin	signature:(std::string const& account_,std::string const& pin_, messaging::sender atm_queue_)
+pin_verified	E:\Code\concurrence\listing_c.6.cpp	/^struct pin_verified$/;"	struct	line:79	file:
+pin_incorrect	E:\Code\concurrence\listing_c.6.cpp	/^struct pin_incorrect$/;"	struct	line:81	file:
+display_enter_pin	E:\Code\concurrence\listing_c.6.cpp	/^struct display_enter_pin$/;"	struct	line:83	file:
+display_enter_card	E:\Code\concurrence\listing_c.6.cpp	/^struct display_enter_card$/;"	struct	line:85	file:
+display_insufficient_funds	E:\Code\concurrence\listing_c.6.cpp	/^struct display_insufficient_funds$/;"	struct	line:87	file:
+display_withdrawal_cancelled	E:\Code\concurrence\listing_c.6.cpp	/^struct display_withdrawal_cancelled$/;"	struct	line:89	file:
+display_pin_incorrect_message	E:\Code\concurrence\listing_c.6.cpp	/^struct display_pin_incorrect_message$/;"	struct	line:91	file:
+display_withdrawal_options	E:\Code\concurrence\listing_c.6.cpp	/^struct display_withdrawal_options$/;"	struct	line:93	file:
+get_balance	E:\Code\concurrence\listing_c.6.cpp	/^struct get_balance$/;"	struct	line:95	file:
+account	E:\Code\concurrence\listing_c.6.cpp	/^    std::string account;$/;"	member	line:97	struct:get_balance	file:
+atm_queue	E:\Code\concurrence\listing_c.6.cpp	/^    mutable messaging::sender atm_queue;$/;"	member	line:98	struct:get_balance	file:
+get_balance	E:\Code\concurrence\listing_c.6.cpp	/^    get_balance(std::string const& account_,messaging::sender atm_queue_):$/;"	function	line:99	struct:get_balance	signature:(std::string const& account_,messaging::sender atm_queue_)
+balance	E:\Code\concurrence\listing_c.6.cpp	/^struct balance$/;"	struct	line:103	file:
+amount	E:\Code\concurrence\listing_c.6.cpp	/^    unsigned amount;$/;"	member	line:105	struct:balance	file:
+balance	E:\Code\concurrence\listing_c.6.cpp	/^    explicit balance(unsigned amount_):$/;"	function	line:106	struct:balance	signature:(unsigned amount_)
+display_balance	E:\Code\concurrence\listing_c.6.cpp	/^struct display_balance$/;"	struct	line:110	file:
+amount	E:\Code\concurrence\listing_c.6.cpp	/^    unsigned amount;$/;"	member	line:112	struct:display_balance	file:
+display_balance	E:\Code\concurrence\listing_c.6.cpp	/^    explicit display_balance(unsigned amount_):$/;"	function	line:113	struct:display_balance	signature:(unsigned amount_)
+balance_pressed	E:\Code\concurrence\listing_c.6.cpp	/^struct balance_pressed$/;"	struct	line:117	file:
+atm	E:\Code\concurrence\listing_c.7.cpp	/^class atm$/;"	class	line:1	file:
+incoming	E:\Code\concurrence\listing_c.7.cpp	/^    messaging::receiver incoming;$/;"	member	line:3	class:atm	file:
+bank	E:\Code\concurrence\listing_c.7.cpp	/^    messaging::sender bank;$/;"	member	line:4	class:atm	file:
+interface_hardware	E:\Code\concurrence\listing_c.7.cpp	/^    messaging::sender interface_hardware;$/;"	member	line:5	class:atm	file:
+state	E:\Code\concurrence\listing_c.7.cpp	/^    void (atm::*state)();$/;"	member	line:6	class:atm	file:
+account	E:\Code\concurrence\listing_c.7.cpp	/^    std::string account;$/;"	member	line:7	class:atm	file:
+withdrawal_amount	E:\Code\concurrence\listing_c.7.cpp	/^    unsigned withdrawal_amount;$/;"	member	line:8	class:atm	file:
+pin	E:\Code\concurrence\listing_c.7.cpp	/^    std::string pin;$/;"	member	line:9	class:atm	file:
+process_withdrawal	E:\Code\concurrence\listing_c.7.cpp	/^    void process_withdrawal()$/;"	function	line:10	class:atm	file:	signature:()
+process_balance	E:\Code\concurrence\listing_c.7.cpp	/^    void process_balance()$/;"	function	line:41	class:atm	file:	signature:()
+wait_for_action	E:\Code\concurrence\listing_c.7.cpp	/^    void wait_for_action()$/;"	function	line:58	class:atm	file:	signature:()
+verifying_pin	E:\Code\concurrence\listing_c.7.cpp	/^    void verifying_pin()$/;"	function	line:84	class:atm	file:	signature:()
+getting_pin	E:\Code\concurrence\listing_c.7.cpp	/^    void getting_pin()$/;"	function	line:108	class:atm	file:	signature:()
+waiting_for_card	E:\Code\concurrence\listing_c.7.cpp	/^    void waiting_for_card()$/;"	function	line:139	class:atm	file:	signature:()
+done_processing	E:\Code\concurrence\listing_c.7.cpp	/^    void done_processing()$/;"	function	line:153	class:atm	file:	signature:()
+atm	E:\Code\concurrence\listing_c.7.cpp	/^    atm(messaging::sender bank_,$/;"	function	line:161	class:atm	signature:(messaging::sender bank_, messaging::sender interface_hardware_)
+done	E:\Code\concurrence\listing_c.7.cpp	/^    void done()$/;"	function	line:165	class:atm	signature:()
+run	E:\Code\concurrence\listing_c.7.cpp	/^    void run()$/;"	function	line:169	class:atm	signature:()
+get_sender	E:\Code\concurrence\listing_c.7.cpp	/^    messaging::sender get_sender()$/;"	function	line:183	class:atm	signature:()
+bank_machine	E:\Code\concurrence\listing_c.8.cpp	/^class bank_machine$/;"	class	line:1	file:
+incoming	E:\Code\concurrence\listing_c.8.cpp	/^    messaging::receiver incoming;$/;"	member	line:3	class:bank_machine	file:
+balance	E:\Code\concurrence\listing_c.8.cpp	/^    unsigned balance;$/;"	member	line:4	class:bank_machine	file:
+bank_machine	E:\Code\concurrence\listing_c.8.cpp	/^    bank_machine():$/;"	function	line:6	class:bank_machine	signature:()
+done	E:\Code\concurrence\listing_c.8.cpp	/^    void done()$/;"	function	line:9	class:bank_machine	signature:()
+run	E:\Code\concurrence\listing_c.8.cpp	/^    void run()$/;"	function	line:13	class:bank_machine	signature:()
+get_sender	E:\Code\concurrence\listing_c.8.cpp	/^    messaging::sender get_sender()$/;"	function	line:69	class:bank_machine	signature:()
+interface_machine	E:\Code\concurrence\listing_c.9.cpp	/^class interface_machine$/;"	class	line:1	file:
+incoming	E:\Code\concurrence\listing_c.9.cpp	/^    messaging::receiver incoming;$/;"	member	line:3	class:interface_machine	file:
+done	E:\Code\concurrence\listing_c.9.cpp	/^    void done()$/;"	function	line:5	class:interface_machine	signature:()
+run	E:\Code\concurrence\listing_c.9.cpp	/^    void run()$/;"	function	line:9	class:interface_machine	signature:()
+get_sender	E:\Code\concurrence\listing_c.9.cpp	/^    messaging::sender get_sender()$/;"	function	line:113	class:interface_machine	signature:()
